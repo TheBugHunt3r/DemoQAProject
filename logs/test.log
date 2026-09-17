@@ -1,0 +1,2092 @@
+2026-09-17 00:05:16.285 [main] INFO  core.utils.TestListener - ========== SUITE STARTED: Surefire test ==========
+2026-09-17 00:05:16.315 [main] INFO  core.utils.property.PropertyConfig - ✅ config.properties loaded successfully
+2026-09-17 00:05:16.315 [main] INFO  tests.base.BaseTest - Starting tests on browser: chrome
+2026-09-17 00:05:19.927 [main] INFO  tests.base.BaseTest - PRE-CONDITION: Быстрая авторизация через API для UI-тестов под юзером: adminUi
+2026-09-17 00:05:19.938 [main] INFO  api.services.AccountService - Sending generate token request for user: adminUi
+2026-09-17 00:05:22.452 [main] INFO  api.services.AccountService - Token generated successfully
+2026-09-17 00:05:23.220 [main] INFO  tests.base.BaseTest - Куки для юзера 'adminUi' успешно внедрены. Переходим сразу в Book Store...
+2026-09-17 00:05:23.457 [main] INFO  ui.pages.BasePage - Checking if Book Store page is opened
+2026-09-17 00:05:23.457 [main] INFO  ui.pages.BasePage - Waiting for page to load (document.readyState = complete)
+2026-09-17 00:05:23.484 [main] INFO  ui.pages.BasePage - Page loaded successfully
+2026-09-17 00:05:24.027 [main] INFO  core.utils.TestListener - ========== STARTING TEST: testLoginAndNavigateToBookStore ==========
+2026-09-17 00:05:24.106 [main] INFO  core.utils.TestListener - ========== PASSED TEST: testLoginAndNavigateToBookStore ==========
+2026-09-17 00:05:24.109 [main] INFO  tests.base.BaseTest - Quitting driver after method
+2026-09-17 00:05:24.225 [main] INFO  tests.base.BaseTest - ========== DRIVER CLOSED ==========
+2026-09-17 00:05:24.229 [main] INFO  tests.base.BaseTest - Starting tests on browser: chrome
+2026-09-17 00:05:25.317 [main] INFO  tests.base.BaseTest - PRE-CONDITION: Быстрая авторизация через API для UI-тестов под юзером: adminUi
+2026-09-17 00:05:25.317 [main] INFO  api.services.AccountService - Sending generate token request for user: adminUi
+2026-09-17 00:05:26.918 [main] INFO  api.services.AccountService - Token generated successfully
+2026-09-17 00:05:27.612 [main] INFO  tests.base.BaseTest - Куки для юзера 'adminUi' успешно внедрены. Переходим сразу в Book Store...
+2026-09-17 00:05:27.807 [main] INFO  ui.pages.BasePage - Checking if Book Store page is opened
+2026-09-17 00:05:27.807 [main] INFO  ui.pages.BasePage - Waiting for page to load (document.readyState = complete)
+2026-09-17 00:05:27.816 [main] INFO  ui.pages.BasePage - Page loaded successfully
+2026-09-17 00:05:28.374 [main] INFO  core.utils.TestListener - ========== STARTING TEST: testSearchBookInBookStore ==========
+2026-09-17 00:05:28.382 [main] INFO  ui.pages.BasePage - Searching for book: Programming JavaScript Applications
+2026-09-17 00:05:28.389 [main] INFO  ui.wrappers.Input - Writing 'Programming JavaScript Applications' to input: By.id: searchBox
+2026-09-17 00:05:28.704 [main] INFO  ui.pages.BasePage - Checking if book is displayed: Programming JavaScript Applications
+2026-09-17 00:05:28.722 [main] INFO  ui.pages.BasePage - ✅ Книга 'Programming JavaScript Applications' визуально отображается на экране!
+2026-09-17 00:05:28.730 [main] INFO  core.utils.TestListener - ========== PASSED TEST: testSearchBookInBookStore ==========
+2026-09-17 00:05:28.732 [main] INFO  tests.base.BaseTest - Quitting driver after method
+2026-09-17 00:05:28.823 [main] INFO  tests.base.BaseTest - ========== DRIVER CLOSED ==========
+2026-09-17 00:05:28.824 [main] INFO  tests.base.BaseTest - Starting tests on browser: chrome
+2026-09-17 00:05:29.876 [main] INFO  tests.base.BaseTest - PRE-CONDITION: Быстрая авторизация через API для UI-тестов под юзером: adminUi
+2026-09-17 00:05:29.877 [main] INFO  api.services.AccountService - Sending generate token request for user: adminUi
+2026-09-17 00:05:31.781 [main] INFO  api.services.AccountService - Token generated successfully
+2026-09-17 00:05:32.469 [main] INFO  tests.base.BaseTest - Куки для юзера 'adminUi' успешно внедрены. Переходим сразу в Book Store...
+2026-09-17 00:05:32.684 [main] INFO  ui.pages.BasePage - Checking if Book Store page is opened
+2026-09-17 00:05:32.684 [main] INFO  ui.pages.BasePage - Waiting for page to load (document.readyState = complete)
+2026-09-17 00:05:32.688 [main] INFO  ui.pages.BasePage - Page loaded successfully
+2026-09-17 00:05:33.208 [main] INFO  core.utils.TestListener - ========== STARTING TEST: testSearchBookInBookStore ==========
+2026-09-17 00:05:33.213 [main] INFO  ui.pages.BasePage - Searching for book: Speaking JavaScript
+2026-09-17 00:05:33.213 [main] INFO  ui.wrappers.Input - Writing 'Speaking JavaScript' to input: By.id: searchBox
+2026-09-17 00:05:33.332 [main] INFO  ui.pages.BasePage - Checking if book is displayed: Speaking JavaScript
+2026-09-17 00:05:33.343 [main] INFO  ui.pages.BasePage - ✅ Книга 'Speaking JavaScript' визуально отображается на экране!
+2026-09-17 00:05:33.344 [main] INFO  core.utils.TestListener - ========== PASSED TEST: testSearchBookInBookStore ==========
+2026-09-17 00:05:33.345 [main] INFO  tests.base.BaseTest - Quitting driver after method
+2026-09-17 00:05:33.432 [main] INFO  tests.base.BaseTest - ========== DRIVER CLOSED ==========
+2026-09-17 00:05:33.433 [main] INFO  tests.base.BaseTest - Starting tests on browser: chrome
+2026-09-17 00:05:34.506 [main] INFO  tests.base.BaseTest - PRE-CONDITION: Быстрая авторизация через API для UI-тестов под юзером: adminUi
+2026-09-17 00:05:34.506 [main] INFO  api.services.AccountService - Sending generate token request for user: adminUi
+2026-09-17 00:05:35.985 [main] INFO  api.services.AccountService - Token generated successfully
+2026-09-17 00:05:36.664 [main] INFO  tests.base.BaseTest - Куки для юзера 'adminUi' успешно внедрены. Переходим сразу в Book Store...
+2026-09-17 00:05:36.870 [main] INFO  ui.pages.BasePage - Checking if Book Store page is opened
+2026-09-17 00:05:36.870 [main] INFO  ui.pages.BasePage - Waiting for page to load (document.readyState = complete)
+2026-09-17 00:05:36.873 [main] INFO  ui.pages.BasePage - Page loaded successfully
+2026-09-17 00:05:37.413 [main] INFO  core.utils.TestListener - ========== STARTING TEST: testSearchBookInBookStore ==========
+2026-09-17 00:05:37.419 [main] INFO  ui.pages.BasePage - Searching for book: You Don't Know JS
+2026-09-17 00:05:37.424 [main] INFO  ui.wrappers.Input - Writing 'You Don't Know JS' to input: By.id: searchBox
+2026-09-17 00:05:37.547 [main] INFO  ui.pages.BasePage - Checking if book is displayed: You Don't Know JS
+2026-09-17 00:05:37.559 [main] INFO  ui.pages.BasePage - ✅ Книга 'You Don't Know JS' визуально отображается на экране!
+2026-09-17 00:05:37.560 [main] INFO  core.utils.TestListener - ========== PASSED TEST: testSearchBookInBookStore ==========
+2026-09-17 00:05:37.561 [main] INFO  tests.base.BaseTest - Quitting driver after method
+2026-09-17 00:05:37.648 [main] INFO  tests.base.BaseTest - ========== DRIVER CLOSED ==========
+2026-09-17 00:05:37.651 [main] INFO  tests.base.BaseTest - Starting tests on browser: chrome
+2026-09-17 00:05:38.733 [main] INFO  ui.pages.BasePage - Opening Login page
+2026-09-17 00:05:39.461 [main] INFO  core.utils.TestListener - ========== STARTING TEST: loginFromDatabase ==========
+2026-09-17 00:05:39.467 [main] INFO  ui.pages.BasePage - Logging in from database
+2026-09-17 00:05:39.477 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-09-17 00:05:39.634 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@7de4bd8f
+2026-09-17 00:05:39.635 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-09-17 00:05:39.635 [main] INFO  core.database.DatabaseManager - ✅ Database connection pool initialized
+2026-09-17 00:05:39.636 [main] INFO  core.database.DatabaseManager - Fetching credentials for user role: admin
+2026-09-17 00:05:39.658 [main] INFO  core.database.DatabaseManager - Found user: admin6
+2026-09-17 00:05:39.661 [main] INFO  ui.pages.BasePage - Logging in with credentials: admin6
+2026-09-17 00:05:39.663 [main] INFO  ui.wrappers.Input - Writing 'admin6' to input: By.xpath: //label[contains(normalize-space(.),'userName')]//following::input[1] | //input[contains(normalize-space(@placeholder),'userName') or @id='userName' or @name='userName']
+2026-09-17 00:05:39.776 [main] INFO  ui.wrappers.Input - Writing 'Password123!' to input: By.xpath: //label[contains(normalize-space(.),'password')]//following::input[1] | //input[contains(normalize-space(@placeholder),'password') or @id='password' or @name='password']
+2026-09-17 00:05:39.973 [main] INFO  ui.wrappers.Buttons - Clicking on button: By.xpath: //button[normalize-space(text())='Login']
+2026-09-17 00:05:40.069 [main] INFO  ui.pages.BasePage - Verifying if login was successful by waiting for 'Log out' text...
+2026-09-17 00:05:42.194 [main] INFO  ui.pages.BasePage - Login verified: 'Log out' button is visible.
+2026-09-17 00:05:42.200 [main] INFO  core.utils.TestListener - ========== PASSED TEST: loginFromDatabase ==========
+2026-09-17 00:05:42.201 [main] INFO  tests.base.BaseTest - Quitting driver after method
+2026-09-17 00:05:42.291 [main] INFO  tests.base.BaseTest - ========== DRIVER CLOSED ==========
+2026-09-17 00:05:42.293 [main] INFO  tests.base.BaseTest - Starting tests on browser: chrome
+2026-09-17 00:05:43.336 [main] INFO  ui.pages.BasePage - Opening Login page
+2026-09-17 00:05:43.984 [main] INFO  core.utils.TestListener - ========== STARTING TEST: testOfLoginWithInvalidCredentials ==========
+2026-09-17 00:05:43.986 [main] INFO  ui.pages.BasePage - Logging in with credentials: admin6
+2026-09-17 00:05:43.986 [main] INFO  ui.wrappers.Input - Writing 'admin6' to input: By.xpath: //label[contains(normalize-space(.),'userName')]//following::input[1] | //input[contains(normalize-space(@placeholder),'userName') or @id='userName' or @name='userName']
+2026-09-17 00:05:44.085 [main] INFO  ui.wrappers.Input - Writing 'WrongPassword!' to input: By.xpath: //label[contains(normalize-space(.),'password')]//following::input[1] | //input[contains(normalize-space(@placeholder),'password') or @id='password' or @name='password']
+2026-09-17 00:05:44.172 [main] INFO  ui.wrappers.Buttons - Clicking on button: By.xpath: //button[normalize-space(text())='Login']
+2026-09-17 00:05:44.200 [main] INFO  ui.pages.BasePage - Verifying if login was successful by waiting for 'Log out' text...
+2026-09-17 00:05:49.532 [main] WARN  ui.pages.BasePage - Login failed: 'Log out' button did not appear.
+2026-09-17 00:05:49.537 [main] INFO  core.utils.TestListener - ========== PASSED TEST: testOfLoginWithInvalidCredentials ==========
+2026-09-17 00:05:49.539 [main] INFO  tests.base.BaseTest - Quitting driver after method
+2026-09-17 00:05:49.633 [main] INFO  tests.base.BaseTest - ========== DRIVER CLOSED ==========
+2026-09-17 00:05:49.634 [main] INFO  tests.base.BaseTest - Starting tests on browser: chrome
+2026-09-17 00:05:50.747 [main] INFO  ui.pages.BasePage - Opening Login page
+2026-09-17 00:05:51.799 [main] INFO  core.utils.TestListener - ========== STARTING TEST: testOfLoginWithInvalidCredentials ==========
+2026-09-17 00:05:51.805 [main] INFO  ui.pages.BasePage - Logging in with credentials: admin6
+2026-09-17 00:05:51.805 [main] INFO  ui.wrappers.Input - Writing 'admin6' to input: By.xpath: //label[contains(normalize-space(.),'userName')]//following::input[1] | //input[contains(normalize-space(@placeholder),'userName') or @id='userName' or @name='userName']
+2026-09-17 00:05:51.914 [main] INFO  ui.wrappers.Input - Writing '' to input: By.xpath: //label[contains(normalize-space(.),'password')]//following::input[1] | //input[contains(normalize-space(@placeholder),'password') or @id='password' or @name='password']
+2026-09-17 00:05:52.002 [main] INFO  ui.wrappers.Buttons - Clicking on button: By.xpath: //button[normalize-space(text())='Login']
+2026-09-17 00:05:52.038 [main] INFO  ui.pages.BasePage - Verifying if login was successful by waiting for 'Log out' text...
+2026-09-17 00:05:57.190 [main] WARN  ui.pages.BasePage - Login failed: 'Log out' button did not appear.
+2026-09-17 00:05:57.198 [main] INFO  core.utils.TestListener - ========== PASSED TEST: testOfLoginWithInvalidCredentials ==========
+2026-09-17 00:05:57.209 [main] INFO  tests.base.BaseTest - Quitting driver after method
+2026-09-17 00:05:57.300 [main] INFO  tests.base.BaseTest - ========== DRIVER CLOSED ==========
+2026-09-17 00:05:57.301 [main] INFO  tests.base.BaseTest - Starting tests on browser: chrome
+2026-09-17 00:05:58.386 [main] INFO  ui.pages.BasePage - Opening Login page
+2026-09-17 00:05:59.068 [main] INFO  core.utils.TestListener - ========== STARTING TEST: testOfLoginWithInvalidCredentials ==========
+2026-09-17 00:05:59.074 [main] INFO  ui.pages.BasePage - Logging in with credentials: admin6
+2026-09-17 00:05:59.074 [main] INFO  ui.wrappers.Input - Writing 'admin6' to input: By.xpath: //label[contains(normalize-space(.),'userName')]//following::input[1] | //input[contains(normalize-space(@placeholder),'userName') or @id='userName' or @name='userName']
+2026-09-17 00:05:59.167 [main] INFO  ui.wrappers.Input - Writing '123' to input: By.xpath: //label[contains(normalize-space(.),'password')]//following::input[1] | //input[contains(normalize-space(@placeholder),'password') or @id='password' or @name='password']
+2026-09-17 00:05:59.243 [main] INFO  ui.wrappers.Buttons - Clicking on button: By.xpath: //button[normalize-space(text())='Login']
+2026-09-17 00:05:59.271 [main] INFO  ui.pages.BasePage - Verifying if login was successful by waiting for 'Log out' text...
+2026-09-17 00:06:04.412 [main] WARN  ui.pages.BasePage - Login failed: 'Log out' button did not appear.
+2026-09-17 00:06:04.419 [main] INFO  core.utils.TestListener - ========== PASSED TEST: testOfLoginWithInvalidCredentials ==========
+2026-09-17 00:06:04.421 [main] INFO  tests.base.BaseTest - Quitting driver after method
+2026-09-17 00:06:04.516 [main] INFO  tests.base.BaseTest - ========== DRIVER CLOSED ==========
+2026-09-17 00:06:04.517 [main] INFO  tests.base.BaseTest - Starting tests on browser: chrome
+2026-09-17 00:06:05.642 [main] INFO  ui.pages.BasePage - Opening Login page
+2026-09-17 00:06:06.308 [main] INFO  core.utils.TestListener - ========== STARTING TEST: testOfLoginWithInvalidCredentials ==========
+2026-09-17 00:06:06.314 [main] INFO  ui.pages.BasePage - Logging in with credentials: admin6
+2026-09-17 00:06:06.315 [main] INFO  ui.wrappers.Input - Writing 'admin6' to input: By.xpath: //label[contains(normalize-space(.),'userName')]//following::input[1] | //input[contains(normalize-space(@placeholder),'userName') or @id='userName' or @name='userName']
+2026-09-17 00:06:06.409 [main] INFO  ui.wrappers.Input - Writing 'a@b#c$d%' to input: By.xpath: //label[contains(normalize-space(.),'password')]//following::input[1] | //input[contains(normalize-space(@placeholder),'password') or @id='password' or @name='password']
+2026-09-17 00:06:06.490 [main] INFO  ui.wrappers.Buttons - Clicking on button: By.xpath: //button[normalize-space(text())='Login']
+2026-09-17 00:06:06.518 [main] INFO  ui.pages.BasePage - Verifying if login was successful by waiting for 'Log out' text...
+2026-09-17 00:06:11.685 [main] WARN  ui.pages.BasePage - Login failed: 'Log out' button did not appear.
+2026-09-17 00:06:11.692 [main] INFO  core.utils.TestListener - ========== PASSED TEST: testOfLoginWithInvalidCredentials ==========
+2026-09-17 00:06:11.694 [main] INFO  tests.base.BaseTest - Quitting driver after method
+2026-09-17 00:06:11.796 [main] INFO  tests.base.BaseTest - ========== DRIVER CLOSED ==========
+2026-09-17 00:06:11.797 [main] INFO  tests.base.BaseTest - Starting tests on browser: chrome
+2026-09-17 00:06:12.889 [main] INFO  ui.pages.BasePage - Opening Login page
+2026-09-17 00:06:13.524 [main] INFO  core.utils.TestListener - ========== STARTING TEST: testOfLoginWithInvalidCredentials ==========
+2026-09-17 00:06:13.530 [main] INFO  ui.pages.BasePage - Logging in with credentials: admin6
+2026-09-17 00:06:13.530 [main] INFO  ui.wrappers.Input - Writing 'admin6' to input: By.xpath: //label[contains(normalize-space(.),'userName')]//following::input[1] | //input[contains(normalize-space(@placeholder),'userName') or @id='userName' or @name='userName']
+2026-09-17 00:06:13.628 [main] INFO  ui.wrappers.Input - Writing 'Password123!extra' to input: By.xpath: //label[contains(normalize-space(.),'password')]//following::input[1] | //input[contains(normalize-space(@placeholder),'password') or @id='password' or @name='password']
+2026-09-17 00:06:13.712 [main] INFO  ui.wrappers.Buttons - Clicking on button: By.xpath: //button[normalize-space(text())='Login']
+2026-09-17 00:06:13.764 [main] INFO  ui.pages.BasePage - Verifying if login was successful by waiting for 'Log out' text...
+2026-09-17 00:06:18.911 [main] WARN  ui.pages.BasePage - Login failed: 'Log out' button did not appear.
+2026-09-17 00:06:18.916 [main] INFO  core.utils.TestListener - ========== PASSED TEST: testOfLoginWithInvalidCredentials ==========
+2026-09-17 00:06:18.925 [main] INFO  tests.base.BaseTest - Quitting driver after method
+2026-09-17 00:06:19.022 [main] INFO  tests.base.BaseTest - ========== DRIVER CLOSED ==========
+2026-09-17 00:06:19.023 [main] INFO  tests.base.BaseTest - Starting tests on browser: chrome
+2026-09-17 00:06:20.124 [main] INFO  ui.pages.BasePage - Opening Login page
+2026-09-17 00:06:20.795 [main] INFO  core.utils.TestListener - ========== STARTING TEST: testOfLoginWithValidCredentials ==========
+2026-09-17 00:06:20.800 [main] INFO  ui.pages.BasePage - Logging in with credentials: admin6
+2026-09-17 00:06:20.800 [main] INFO  ui.wrappers.Input - Writing 'admin6' to input: By.xpath: //label[contains(normalize-space(.),'userName')]//following::input[1] | //input[contains(normalize-space(@placeholder),'userName') or @id='userName' or @name='userName']
+2026-09-17 00:06:20.896 [main] INFO  ui.wrappers.Input - Writing 'Password123!' to input: By.xpath: //label[contains(normalize-space(.),'password')]//following::input[1] | //input[contains(normalize-space(@placeholder),'password') or @id='password' or @name='password']
+2026-09-17 00:06:20.994 [main] INFO  ui.wrappers.Buttons - Clicking on button: By.xpath: //button[normalize-space(text())='Login']
+2026-09-17 00:06:21.025 [main] INFO  ui.pages.BasePage - Verifying if login was successful by waiting for 'Log out' text...
+2026-09-17 00:06:23.094 [main] INFO  ui.pages.BasePage - Login verified: 'Log out' button is visible.
+2026-09-17 00:06:23.096 [main] INFO  core.utils.TestListener - ========== PASSED TEST: testOfLoginWithValidCredentials ==========
+2026-09-17 00:06:23.097 [main] INFO  tests.base.BaseTest - Quitting driver after method
+2026-09-17 00:06:23.189 [main] INFO  tests.base.BaseTest - ========== DRIVER CLOSED ==========
+2026-09-17 00:06:23.830 [main] INFO  core.utils.TestListener - ========== STARTING TEST: testGenerateTokenFailure ==========
+2026-09-17 00:06:23.892 [main] INFO  api.services.AccountService - Sending generate token request for user: testUser
+2026-09-17 00:06:23.894 [main] WARN  api.services.AccountService - Token generation returned status: Failed, result: User authorization failed.
+2026-09-17 00:06:23.900 [main] INFO  core.utils.TestListener - ========== PASSED TEST: testGenerateTokenFailure ==========
+2026-09-17 00:06:23.902 [main] INFO  core.utils.TestListener - ========== STARTING TEST: testGenerateTokenSuccess ==========
+2026-09-17 00:06:23.904 [main] INFO  api.services.AccountService - Sending generate token request for user: testUser
+2026-09-17 00:06:23.904 [main] INFO  api.services.AccountService - Token generated successfully
+2026-09-17 00:06:23.905 [main] INFO  core.utils.TestListener - ========== PASSED TEST: testGenerateTokenSuccess ==========
+2026-09-17 00:06:23.906 [main] INFO  core.utils.TestListener - ========== STARTING TEST: testLoginSuccess ==========
+2026-09-17 00:06:23.907 [main] INFO  api.services.AccountService - Sending login request for user: testUser
+2026-09-17 00:06:23.908 [main] INFO  api.services.AccountService - Login successful
+2026-09-17 00:06:23.908 [main] INFO  core.utils.TestListener - ========== PASSED TEST: testLoginSuccess ==========
+2026-09-17 00:06:24.012 [main] INFO  core.utils.TestListener - ========== STARTING TEST: testDeleteAllBooks ==========
+2026-09-17 00:06:24.014 [main] INFO  api.services.BookStoreService - Deleting all books for user '123'
+2026-09-17 00:06:24.014 [main] INFO  api.services.BookStoreService - All books deleted successfully
+2026-09-17 00:06:24.015 [main] INFO  core.utils.TestListener - ========== PASSED TEST: testDeleteAllBooks ==========
+2026-09-17 00:06:24.016 [main] INFO  core.utils.TestListener - ========== STARTING TEST: testGetBookByIsbnNotFound ==========
+2026-09-17 00:06:24.018 [main] INFO  api.services.BookStoreService - Getting book by ISBN: invalid-isbn
+2026-09-17 00:06:24.019 [main] WARN  api.services.BookStoreService - Book with ISBN 'invalid-isbn' not found or request failed
+2026-09-17 00:06:24.021 [main] INFO  core.utils.TestListener - ========== PASSED TEST: testGetBookByIsbnNotFound ==========
+2026-09-17 00:06:24.022 [main] INFO  core.utils.TestListener - ========== STARTING TEST: testGetBooksSuccess ==========
+2026-09-17 00:06:24.023 [main] INFO  api.services.BookStoreService - Getting all books
+2026-09-17 00:06:24.023 [main] INFO  api.services.BookStoreService - Retrieved 0 books
+2026-09-17 00:06:24.024 [main] INFO  core.utils.TestListener - ========== PASSED TEST: testGetBooksSuccess ==========
+2026-09-17 00:06:24.070 [main] INFO  org.apache.kafka.common.config.AbstractConfig - ProducerConfig values: 
+	acks = -1
+	batch.size = 16384
+	bootstrap.servers = [localhost:9092]
+	buffer.memory = 33554432
+	client.dns.lookup = use_all_dns_ips
+	client.id = producer-1
+	compression.gzip.level = -1
+	compression.lz4.level = 9
+	compression.type = none
+	compression.zstd.level = 3
+	config.providers = []
+	connections.max.idle.ms = 540000
+	delivery.timeout.ms = 120000
+	enable.idempotence = true
+	enable.metrics.push = true
+	interceptor.classes = []
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 5
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metadata.max.idle.ms = 300000
+	metadata.recovery.rebootstrap.trigger.ms = 300000
+	metadata.recovery.strategy = rebootstrap
+	metric.reporters = [org.apache.kafka.common.metrics.JmxReporter]
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.adaptive.partitioning.enable = true
+	partitioner.availability.timeout.ms = 0
+	partitioner.class = null
+	partitioner.ignore.keys = false
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.max.ms = 1000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.assertion.algorithm = RS256
+	sasl.oauthbearer.assertion.claim.aud = null
+	sasl.oauthbearer.assertion.claim.exp.seconds = 300
+	sasl.oauthbearer.assertion.claim.iss = null
+	sasl.oauthbearer.assertion.claim.jti.include = false
+	sasl.oauthbearer.assertion.claim.nbf.seconds = 60
+	sasl.oauthbearer.assertion.claim.sub = null
+	sasl.oauthbearer.assertion.file = null
+	sasl.oauthbearer.assertion.private.key.file = null
+	sasl.oauthbearer.assertion.private.key.passphrase = null
+	sasl.oauthbearer.assertion.template.file = null
+	sasl.oauthbearer.client.credentials.client.id = null
+	sasl.oauthbearer.client.credentials.client.secret = null
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = []
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.header.urlencode = false
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.jwt.retriever.class = class org.apache.kafka.common.security.oauthbearer.DefaultJwtRetriever
+	sasl.oauthbearer.jwt.validator.class = class org.apache.kafka.common.security.oauthbearer.DefaultJwtValidator
+	sasl.oauthbearer.scope = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = []
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transaction.two.phase.commit.enable = false
+	transactional.id = null
+	value.serializer = class org.apache.kafka.common.serialization.StringSerializer
+
+2026-09-17 00:06:24.146 [main] INFO  org.apache.kafka.common.telemetry.internals.KafkaMetricsCollector - initializing Kafka metrics collector
+2026-09-17 00:06:24.169 [main] INFO  org.apache.kafka.clients.producer.KafkaProducer - [Producer clientId=producer-1] Instantiated an idempotent producer.
+2026-09-17 00:06:24.219 [main] INFO  org.apache.kafka.common.utils.AppInfoParser - Kafka version: 4.2.0
+2026-09-17 00:06:24.219 [main] INFO  org.apache.kafka.common.utils.AppInfoParser - Kafka commitId: a18251bae0b825c6
+2026-09-17 00:06:24.219 [main] INFO  org.apache.kafka.common.utils.AppInfoParser - Kafka startTimeMs: 1789592784214
+2026-09-17 00:06:24.237 [main] INFO  org.apache.kafka.common.config.AbstractConfig - ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = earliest
+	bootstrap.servers = [localhost:9092]
+	check.crcs = true
+	client.dns.lookup = use_all_dns_ips
+	client.id = consumer-test-group-ba2fdc79-b984-481d-a51e-2c6a8218ca27-1
+	client.rack = 
+	config.providers = []
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = true
+	enable.metrics.push = true
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = test-group-ba2fdc79-b984-481d-a51e-2c6a8218ca27
+	group.instance.id = null
+	group.protocol = classic
+	group.remote.assignor = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.throw.on.fetch.stable.offset.unsupported = false
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metadata.recovery.rebootstrap.trigger.ms = 300000
+	metadata.recovery.strategy = rebootstrap
+	metric.reporters = [org.apache.kafka.common.metrics.JmxReporter]
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor, class org.apache.kafka.clients.consumer.CooperativeStickyAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.max.ms = 1000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.assertion.algorithm = RS256
+	sasl.oauthbearer.assertion.claim.aud = null
+	sasl.oauthbearer.assertion.claim.exp.seconds = 300
+	sasl.oauthbearer.assertion.claim.iss = null
+	sasl.oauthbearer.assertion.claim.jti.include = false
+	sasl.oauthbearer.assertion.claim.nbf.seconds = 60
+	sasl.oauthbearer.assertion.claim.sub = null
+	sasl.oauthbearer.assertion.file = null
+	sasl.oauthbearer.assertion.private.key.file = null
+	sasl.oauthbearer.assertion.private.key.passphrase = null
+	sasl.oauthbearer.assertion.template.file = null
+	sasl.oauthbearer.client.credentials.client.id = null
+	sasl.oauthbearer.client.credentials.client.secret = null
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = []
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.header.urlencode = false
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.jwt.retriever.class = class org.apache.kafka.common.security.oauthbearer.DefaultJwtRetriever
+	sasl.oauthbearer.jwt.validator.class = class org.apache.kafka.common.security.oauthbearer.DefaultJwtValidator
+	sasl.oauthbearer.scope = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 45000
+	share.acknowledgement.mode = implicit
+	share.acquire.mode = BATCH_OPTIMIZED
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = []
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+2026-09-17 00:06:24.251 [main] INFO  org.apache.kafka.common.telemetry.internals.KafkaMetricsCollector - initializing Kafka metrics collector
+2026-09-17 00:06:24.316 [main] INFO  org.apache.kafka.common.utils.AppInfoParser - Kafka version: 4.2.0
+2026-09-17 00:06:24.316 [main] INFO  org.apache.kafka.common.utils.AppInfoParser - Kafka commitId: a18251bae0b825c6
+2026-09-17 00:06:24.316 [main] INFO  org.apache.kafka.common.utils.AppInfoParser - Kafka startTimeMs: 1789592784316
+2026-09-17 00:06:24.320 [main] INFO  org.apache.kafka.clients.consumer.internals.ClassicKafkaConsumer - [Consumer clientId=consumer-test-group-ba2fdc79-b984-481d-a51e-2c6a8218ca27-1, groupId=test-group-ba2fdc79-b984-481d-a51e-2c6a8218ca27] Subscribed to topic(s): test-execution-results
+2026-09-17 00:06:24.321 [main] INFO  core.utils.TestListener - ========== STARTING TEST: testKafkaMessageFlow ==========
+2026-09-17 00:06:24.322 [main] INFO  core.kafka.KafkaClientProducer - Sending message to topic 'test-execution-results': {"status": "SUCCESS", "test": "LoginTest"}
+2026-09-17 00:06:24.685 [kafka-producer-network-thread | producer-1] INFO  org.apache.kafka.clients.Metadata - [Producer clientId=producer-1] Cluster ID: 5L6g3nShT-eMCtK--X86sw
+2026-09-17 00:06:24.686 [kafka-producer-network-thread | producer-1] INFO  org.apache.kafka.clients.producer.internals.TransactionManager - [Producer clientId=producer-1] ProducerId set to 16 with epoch 0
+2026-09-17 00:06:24.747 [kafka-producer-network-thread | producer-1] INFO  core.kafka.KafkaClientProducer - Message sent successfully to partition 0 with offset 16
+2026-09-17 00:06:24.812 [awaitility-thread] INFO  core.kafka.KafkaClientConsumer - Polling messages from Kafka...
+2026-09-17 00:06:24.818 [awaitility-thread] INFO  org.apache.kafka.clients.Metadata - [Consumer clientId=consumer-test-group-ba2fdc79-b984-481d-a51e-2c6a8218ca27-1, groupId=test-group-ba2fdc79-b984-481d-a51e-2c6a8218ca27] Cluster ID: 5L6g3nShT-eMCtK--X86sw
+2026-09-17 00:06:24.824 [awaitility-thread] INFO  org.apache.kafka.clients.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-test-group-ba2fdc79-b984-481d-a51e-2c6a8218ca27-1, groupId=test-group-ba2fdc79-b984-481d-a51e-2c6a8218ca27] Discovered group coordinator localhost:9092 (id: 2147483646 rack: null isFenced: false)
+2026-09-17 00:06:24.827 [awaitility-thread] INFO  org.apache.kafka.clients.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-test-group-ba2fdc79-b984-481d-a51e-2c6a8218ca27-1, groupId=test-group-ba2fdc79-b984-481d-a51e-2c6a8218ca27] (Re-)joining group
+2026-09-17 00:06:24.868 [awaitility-thread] INFO  org.apache.kafka.clients.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-test-group-ba2fdc79-b984-481d-a51e-2c6a8218ca27-1, groupId=test-group-ba2fdc79-b984-481d-a51e-2c6a8218ca27] Request joining group due to: need to re-join with the given member-id: consumer-test-group-ba2fdc79-b984-481d-a51e-2c6a8218ca27-1-f18c80d1-604c-4a02-beca-092bc8f55d02
+2026-09-17 00:06:24.868 [awaitility-thread] INFO  org.apache.kafka.clients.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-test-group-ba2fdc79-b984-481d-a51e-2c6a8218ca27-1, groupId=test-group-ba2fdc79-b984-481d-a51e-2c6a8218ca27] (Re-)joining group
+2026-09-17 00:06:24.880 [awaitility-thread] INFO  org.apache.kafka.clients.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-test-group-ba2fdc79-b984-481d-a51e-2c6a8218ca27-1, groupId=test-group-ba2fdc79-b984-481d-a51e-2c6a8218ca27] Successfully joined group with generation Generation{generationId=1, memberId='consumer-test-group-ba2fdc79-b984-481d-a51e-2c6a8218ca27-1-f18c80d1-604c-4a02-beca-092bc8f55d02', protocol='range'}
+2026-09-17 00:06:24.884 [awaitility-thread] INFO  org.apache.kafka.clients.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-test-group-ba2fdc79-b984-481d-a51e-2c6a8218ca27-1, groupId=test-group-ba2fdc79-b984-481d-a51e-2c6a8218ca27] Finished assignment for group at generation 1: {consumer-test-group-ba2fdc79-b984-481d-a51e-2c6a8218ca27-1-f18c80d1-604c-4a02-beca-092bc8f55d02=Assignment(partitions=[test-execution-results-0])}
+2026-09-17 00:06:24.894 [awaitility-thread] INFO  org.apache.kafka.clients.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-test-group-ba2fdc79-b984-481d-a51e-2c6a8218ca27-1, groupId=test-group-ba2fdc79-b984-481d-a51e-2c6a8218ca27] Successfully synced group in generation Generation{generationId=1, memberId='consumer-test-group-ba2fdc79-b984-481d-a51e-2c6a8218ca27-1-f18c80d1-604c-4a02-beca-092bc8f55d02', protocol='range'}
+2026-09-17 00:06:24.894 [awaitility-thread] INFO  org.apache.kafka.clients.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-test-group-ba2fdc79-b984-481d-a51e-2c6a8218ca27-1, groupId=test-group-ba2fdc79-b984-481d-a51e-2c6a8218ca27] Notifying assignor about the new Assignment(partitions=[test-execution-results-0])
+2026-09-17 00:06:24.896 [awaitility-thread] INFO  org.apache.kafka.clients.consumer.internals.ConsumerRebalanceListenerInvoker - [Consumer clientId=consumer-test-group-ba2fdc79-b984-481d-a51e-2c6a8218ca27-1, groupId=test-group-ba2fdc79-b984-481d-a51e-2c6a8218ca27] Adding newly assigned partitions: [test-execution-results-0]
+2026-09-17 00:06:24.903 [awaitility-thread] INFO  org.apache.kafka.clients.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-test-group-ba2fdc79-b984-481d-a51e-2c6a8218ca27-1, groupId=test-group-ba2fdc79-b984-481d-a51e-2c6a8218ca27] Found no committed offset for partition test-execution-results-0
+2026-09-17 00:06:24.921 [awaitility-thread] INFO  org.apache.kafka.clients.consumer.internals.SubscriptionState - [Consumer clientId=consumer-test-group-ba2fdc79-b984-481d-a51e-2c6a8218ca27-1, groupId=test-group-ba2fdc79-b984-481d-a51e-2c6a8218ca27] Resetting offset for partition test-execution-results-0 to position FetchPosition{offset=2, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[localhost:9092 (id: 1 rack: null isFenced: false)], epoch=0}}.
+2026-09-17 00:06:24.942 [main] INFO  core.utils.TestListener - ========== PASSED TEST: testKafkaMessageFlow ==========
+2026-09-17 00:06:24.942 [main] INFO  org.apache.kafka.clients.producer.KafkaProducer - [Producer clientId=producer-1] Closing the Kafka producer with timeoutMillis = 9223372036854775807 ms.
+2026-09-17 00:06:24.946 [main] INFO  org.apache.kafka.common.metrics.Metrics - Metrics scheduler closed
+2026-09-17 00:06:24.946 [main] INFO  org.apache.kafka.common.metrics.Metrics - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2026-09-17 00:06:24.946 [main] INFO  org.apache.kafka.common.metrics.Metrics - Closing reporter org.apache.kafka.common.telemetry.internals.ClientTelemetryReporter
+2026-09-17 00:06:24.946 [main] INFO  org.apache.kafka.common.metrics.Metrics - Metrics reporters closed
+2026-09-17 00:06:24.947 [main] INFO  org.apache.kafka.common.utils.AppInfoParser - App info kafka.producer for producer-1 unregistered
+2026-09-17 00:06:24.952 [main] INFO  org.apache.kafka.clients.consumer.internals.ConsumerRebalanceListenerInvoker - [Consumer clientId=consumer-test-group-ba2fdc79-b984-481d-a51e-2c6a8218ca27-1, groupId=test-group-ba2fdc79-b984-481d-a51e-2c6a8218ca27] Revoke previously assigned partitions [test-execution-results-0]
+2026-09-17 00:06:24.953 [main] INFO  org.apache.kafka.clients.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-test-group-ba2fdc79-b984-481d-a51e-2c6a8218ca27-1, groupId=test-group-ba2fdc79-b984-481d-a51e-2c6a8218ca27] Member consumer-test-group-ba2fdc79-b984-481d-a51e-2c6a8218ca27-1-f18c80d1-604c-4a02-beca-092bc8f55d02 sending LeaveGroup request to coordinator localhost:9092 (id: 2147483646 rack: null isFenced: false) due to the consumer is being closed
+2026-09-17 00:06:24.953 [main] INFO  org.apache.kafka.clients.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-test-group-ba2fdc79-b984-481d-a51e-2c6a8218ca27-1, groupId=test-group-ba2fdc79-b984-481d-a51e-2c6a8218ca27] Resetting generation and member id due to: consumer pro-actively leaving the group
+2026-09-17 00:06:24.953 [main] INFO  org.apache.kafka.clients.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-test-group-ba2fdc79-b984-481d-a51e-2c6a8218ca27-1, groupId=test-group-ba2fdc79-b984-481d-a51e-2c6a8218ca27] Request joining group due to: consumer pro-actively leaving the group
+2026-09-17 00:06:25.447 [main] INFO  org.apache.kafka.common.metrics.Metrics - Metrics scheduler closed
+2026-09-17 00:06:25.447 [main] INFO  org.apache.kafka.common.metrics.Metrics - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2026-09-17 00:06:25.448 [main] INFO  org.apache.kafka.common.metrics.Metrics - Closing reporter org.apache.kafka.common.telemetry.internals.ClientTelemetryReporter
+2026-09-17 00:06:25.448 [main] INFO  org.apache.kafka.common.metrics.Metrics - Metrics reporters closed
+2026-09-17 00:06:25.449 [main] INFO  org.apache.kafka.common.utils.AppInfoParser - App info kafka.consumer for consumer-test-group-ba2fdc79-b984-481d-a51e-2c6a8218ca27-1 unregistered
+2026-09-17 00:06:25.450 [main] INFO  tests.base.BaseApiTest - Setting up API credentials...
+2026-09-17 00:06:25.451 [main] INFO  api.services.AccountService - Sending login request for user: admin6
+2026-09-17 00:06:26.131 [main] INFO  api.services.AccountService - Login successful
+2026-09-17 00:06:26.131 [main] INFO  api.services.AccountService - Sending generate token request for user: admin6
+2026-09-17 00:06:27.308 [main] INFO  api.services.AccountService - Token generated successfully
+2026-09-17 00:06:27.312 [main] INFO  tests.base.BaseApiTest - API Setup successful. UserID: a9db5160-3ddc-4c00-b81f-9076c3353d37
+2026-09-17 00:06:27.314 [main] INFO  tests.api.BookStoreTest - Cleaning up user's book collection before test
+2026-09-17 00:06:27.314 [main] INFO  api.services.BookStoreService - Deleting all books for user 'a9db5160-3ddc-4c00-b81f-9076c3353d37'
+2026-09-17 00:06:28.692 [main] INFO  api.services.BookStoreService - All books deleted successfully
+2026-09-17 00:06:28.692 [main] INFO  api.services.BookStoreService - Getting all books
+2026-09-17 00:06:28.922 [main] INFO  api.services.BookStoreService - Retrieved 8 books
+2026-09-17 00:06:28.922 [main] INFO  tests.api.BookStoreTest - First book ISBN: 9781449325862
+2026-09-17 00:06:28.924 [main] INFO  core.utils.TestListener - ========== STARTING TEST: testAddBook ==========
+2026-09-17 00:06:28.927 [main] INFO  tests.api.BookStoreTest - Starting test: Add book to collection. ISBN: 9781449325862
+2026-09-17 00:06:28.927 [main] INFO  api.services.BookStoreService - Adding book with ISBN '9781449325862' to user 'a9db5160-3ddc-4c00-b81f-9076c3353d37'
+2026-09-17 00:06:29.216 [main] INFO  api.services.BookStoreService - Book added successfully
+2026-09-17 00:06:29.217 [main] INFO  tests.api.BookStoreTest - Book added successfully, verifying...
+2026-09-17 00:06:29.217 [main] INFO  api.services.BookStoreService - Getting books for user 'a9db5160-3ddc-4c00-b81f-9076c3353d37'
+2026-09-17 00:06:29.504 [main] INFO  tests.api.BookStoreTest - Book verified in user's collection
+2026-09-17 00:06:29.505 [main] INFO  core.utils.TestListener - ========== PASSED TEST: testAddBook ==========
+2026-09-17 00:06:29.506 [main] INFO  tests.api.BookStoreTest - Cleaning up user's book collection before test
+2026-09-17 00:06:29.506 [main] INFO  api.services.BookStoreService - Deleting all books for user 'a9db5160-3ddc-4c00-b81f-9076c3353d37'
+2026-09-17 00:06:30.027 [main] INFO  api.services.BookStoreService - All books deleted successfully
+2026-09-17 00:06:30.028 [main] INFO  api.services.BookStoreService - Getting all books
+2026-09-17 00:06:30.232 [main] INFO  api.services.BookStoreService - Retrieved 8 books
+2026-09-17 00:06:30.233 [main] INFO  tests.api.BookStoreTest - First book ISBN: 9781449325862
+2026-09-17 00:06:30.233 [main] INFO  core.utils.TestListener - ========== STARTING TEST: testDeleteBooks ==========
+2026-09-17 00:06:30.234 [main] INFO  tests.api.BookStoreTest - Starting test: Delete all books from collection
+2026-09-17 00:06:30.234 [main] INFO  api.services.BookStoreService - Adding book with ISBN '9781449325862' to user 'a9db5160-3ddc-4c00-b81f-9076c3353d37'
+2026-09-17 00:06:30.539 [main] INFO  api.services.BookStoreService - Book added successfully
+2026-09-17 00:06:30.539 [main] INFO  tests.api.BookStoreTest - Added test book before deletion
+2026-09-17 00:06:30.539 [main] INFO  api.services.BookStoreService - Deleting all books for user 'a9db5160-3ddc-4c00-b81f-9076c3353d37'
+2026-09-17 00:06:31.153 [main] INFO  api.services.BookStoreService - All books deleted successfully
+2026-09-17 00:06:31.154 [main] INFO  api.services.BookStoreService - Getting books for user 'a9db5160-3ddc-4c00-b81f-9076c3353d37'
+2026-09-17 00:06:31.444 [main] INFO  tests.api.BookStoreTest - All books deleted successfully
+2026-09-17 00:06:31.446 [main] INFO  core.utils.TestListener - ========== PASSED TEST: testDeleteBooks ==========
+2026-09-17 00:06:31.450 [main] INFO  tests.api.BookStoreTest - Cleaning up user's book collection before test
+2026-09-17 00:06:31.451 [main] INFO  api.services.BookStoreService - Deleting all books for user 'a9db5160-3ddc-4c00-b81f-9076c3353d37'
+2026-09-17 00:06:31.730 [main] INFO  api.services.BookStoreService - All books deleted successfully
+2026-09-17 00:06:31.731 [main] INFO  api.services.BookStoreService - Getting all books
+2026-09-17 00:06:31.908 [main] INFO  api.services.BookStoreService - Retrieved 8 books
+2026-09-17 00:06:31.908 [main] INFO  tests.api.BookStoreTest - First book ISBN: 9781449325862
+2026-09-17 00:06:31.909 [main] INFO  core.utils.TestListener - ========== STARTING TEST: testGetBooks ==========
+2026-09-17 00:06:31.909 [main] INFO  tests.api.BookStoreTest - Starting test: Get all books
+2026-09-17 00:06:31.909 [main] INFO  api.services.BookStoreService - Getting all books
+2026-09-17 00:06:32.091 [main] INFO  api.services.BookStoreService - Retrieved 8 books
+2026-09-17 00:06:32.091 [main] INFO  tests.api.BookStoreTest - Retrieved 8 books
+2026-09-17 00:06:32.092 [main] INFO  core.utils.TestListener - ========== PASSED TEST: testGetBooks ==========
+2026-09-17 00:06:32.093 [main] INFO  tests.base.BaseApiTest - Setting up API credentials...
+2026-09-17 00:06:32.093 [main] INFO  api.services.AccountService - Sending login request for user: admin6
+2026-09-17 00:06:32.891 [main] INFO  api.services.AccountService - Login successful
+2026-09-17 00:06:32.892 [main] INFO  api.services.AccountService - Sending generate token request for user: admin6
+2026-09-17 00:06:34.225 [main] INFO  api.services.AccountService - Token generated successfully
+2026-09-17 00:06:34.225 [main] INFO  tests.base.BaseApiTest - API Setup successful. UserID: a9db5160-3ddc-4c00-b81f-9076c3353d37
+2026-09-17 00:06:34.226 [main] INFO  core.utils.TestListener - ========== STARTING TEST: testGenerateToken ==========
+2026-09-17 00:06:34.231 [main] INFO  tests.api.AuthorizationTest - Starting test: Generate access token
+2026-09-17 00:06:34.231 [main] INFO  tests.api.AuthorizationTest - Requesting token for user: admin6
+2026-09-17 00:06:34.232 [main] INFO  api.services.AccountService - Sending generate token request for user: admin6
+2026-09-17 00:06:35.523 [main] INFO  api.services.AccountService - Token generated successfully
+2026-09-17 00:06:35.523 [main] INFO  tests.api.AuthorizationTest - Token generated successfully. Token: eyJhbG...gprQ
+2026-09-17 00:06:35.524 [main] INFO  core.utils.TestListener - ========== PASSED TEST: testGenerateToken ==========
+2026-09-17 00:06:35.525 [main] INFO  core.utils.TestListener - ========== STARTING TEST: testLogin ==========
+2026-09-17 00:06:35.525 [main] INFO  tests.api.AuthorizationTest - Starting test: User login
+2026-09-17 00:06:35.525 [main] INFO  tests.api.AuthorizationTest - Attempting login for user: admin6
+2026-09-17 00:06:35.526 [main] INFO  api.services.AccountService - Sending login request for user: admin6
+2026-09-17 00:06:36.277 [main] INFO  api.services.AccountService - Login successful
+2026-09-17 00:06:36.277 [main] INFO  tests.api.AuthorizationTest - Login successful for user: admin6
+2026-09-17 00:06:36.280 [main] INFO  core.utils.TestListener - ========== PASSED TEST: testLogin ==========
+2026-09-17 00:06:36.310 [main] INFO  core.utils.TestListener - ========== SUITE FINISHED: Surefire test ==========
+2026-09-17 18:28:16.732 [main] INFO  core.utils.TestListener - ========== SUITE STARTED: Surefire test ==========
+2026-09-17 18:28:16.763 [main] INFO  core.utils.property.PropertyConfig - ✅ config.properties loaded successfully
+2026-09-17 18:28:16.763 [main] INFO  tests.base.BaseTest - Starting tests on browser: chrome
+2026-09-17 18:28:23.422 [main] INFO  tests.base.BaseTest - PRE-CONDITION: Быстрая авторизация через API для UI-тестов под юзером: adminUi
+2026-09-17 18:28:23.437 [main] INFO  api.services.AccountService - Sending generate token request for user: adminUi
+2026-09-17 18:28:26.184 [main] INFO  api.services.AccountService - Token generated successfully
+2026-09-17 18:28:27.025 [main] INFO  tests.base.BaseTest - Куки для юзера 'adminUi' успешно внедрены. Переходим сразу в Book Store...
+2026-09-17 18:28:27.318 [main] INFO  ui.pages.BasePage - Checking if Book Store page is opened
+2026-09-17 18:28:27.318 [main] INFO  ui.pages.BasePage - Waiting for page to load (document.readyState = complete)
+2026-09-17 18:28:27.321 [main] INFO  ui.pages.BasePage - Page loaded successfully
+2026-09-17 18:28:27.847 [main] INFO  core.utils.TestListener - ========== STARTING TEST: testLoginAndNavigateToBookStore ==========
+2026-09-17 18:28:27.872 [main] INFO  core.utils.TestListener - ========== PASSED TEST: testLoginAndNavigateToBookStore ==========
+2026-09-17 18:28:27.873 [main] INFO  tests.base.BaseTest - Quitting driver after method
+2026-09-17 18:28:27.965 [main] INFO  tests.base.BaseTest - ========== DRIVER CLOSED ==========
+2026-09-17 18:28:27.968 [main] INFO  tests.base.BaseTest - Starting tests on browser: chrome
+2026-09-17 18:28:29.149 [main] INFO  tests.base.BaseTest - PRE-CONDITION: Быстрая авторизация через API для UI-тестов под юзером: adminUi
+2026-09-17 18:28:29.149 [main] INFO  api.services.AccountService - Sending generate token request for user: adminUi
+2026-09-17 18:28:30.812 [main] INFO  api.services.AccountService - Token generated successfully
+2026-09-17 18:28:31.681 [main] INFO  tests.base.BaseTest - Куки для юзера 'adminUi' успешно внедрены. Переходим сразу в Book Store...
+2026-09-17 18:28:31.933 [main] INFO  ui.pages.BasePage - Checking if Book Store page is opened
+2026-09-17 18:28:31.933 [main] INFO  ui.pages.BasePage - Waiting for page to load (document.readyState = complete)
+2026-09-17 18:28:31.938 [main] INFO  ui.pages.BasePage - Page loaded successfully
+2026-09-17 18:28:32.457 [main] INFO  core.utils.TestListener - ========== STARTING TEST: testSearchBookInBookStore ==========
+2026-09-17 18:28:32.461 [main] INFO  ui.pages.BasePage - Searching for book: Programming JavaScript Applications
+2026-09-17 18:28:32.465 [main] INFO  ui.wrappers.Input - Writing 'Programming JavaScript Applications' to input: By.id: searchBox
+2026-09-17 18:28:32.655 [main] INFO  ui.pages.BasePage - Checking if book is displayed: Programming JavaScript Applications
+2026-09-17 18:28:32.669 [main] INFO  ui.pages.BasePage - ✅ Книга 'Programming JavaScript Applications' визуально отображается на экране!
+2026-09-17 18:28:32.670 [main] INFO  core.utils.TestListener - ========== PASSED TEST: testSearchBookInBookStore ==========
+2026-09-17 18:28:32.673 [main] INFO  tests.base.BaseTest - Quitting driver after method
+2026-09-17 18:28:32.761 [main] INFO  tests.base.BaseTest - ========== DRIVER CLOSED ==========
+2026-09-17 18:28:32.763 [main] INFO  tests.base.BaseTest - Starting tests on browser: chrome
+2026-09-17 18:28:33.858 [main] INFO  tests.base.BaseTest - PRE-CONDITION: Быстрая авторизация через API для UI-тестов под юзером: adminUi
+2026-09-17 18:28:33.858 [main] INFO  api.services.AccountService - Sending generate token request for user: adminUi
+2026-09-17 18:28:35.627 [main] INFO  api.services.AccountService - Token generated successfully
+2026-09-17 18:28:36.541 [main] INFO  tests.base.BaseTest - Куки для юзера 'adminUi' успешно внедрены. Переходим сразу в Book Store...
+2026-09-17 18:28:36.780 [main] INFO  ui.pages.BasePage - Checking if Book Store page is opened
+2026-09-17 18:28:36.783 [main] INFO  ui.pages.BasePage - Waiting for page to load (document.readyState = complete)
+2026-09-17 18:28:36.787 [main] INFO  ui.pages.BasePage - Page loaded successfully
+2026-09-17 18:28:37.311 [main] INFO  core.utils.TestListener - ========== STARTING TEST: testSearchBookInBookStore ==========
+2026-09-17 18:28:37.324 [main] INFO  ui.pages.BasePage - Searching for book: Speaking JavaScript
+2026-09-17 18:28:37.325 [main] INFO  ui.wrappers.Input - Writing 'Speaking JavaScript' to input: By.id: searchBox
+2026-09-17 18:28:37.476 [main] INFO  ui.pages.BasePage - Checking if book is displayed: Speaking JavaScript
+2026-09-17 18:28:37.489 [main] INFO  ui.pages.BasePage - ✅ Книга 'Speaking JavaScript' визуально отображается на экране!
+2026-09-17 18:28:37.490 [main] INFO  core.utils.TestListener - ========== PASSED TEST: testSearchBookInBookStore ==========
+2026-09-17 18:28:37.491 [main] INFO  tests.base.BaseTest - Quitting driver after method
+2026-09-17 18:28:37.576 [main] INFO  tests.base.BaseTest - ========== DRIVER CLOSED ==========
+2026-09-17 18:28:37.578 [main] INFO  tests.base.BaseTest - Starting tests on browser: chrome
+2026-09-17 18:28:38.956 [main] INFO  tests.base.BaseTest - PRE-CONDITION: Быстрая авторизация через API для UI-тестов под юзером: adminUi
+2026-09-17 18:28:38.957 [main] INFO  api.services.AccountService - Sending generate token request for user: adminUi
+2026-09-17 18:28:40.982 [main] INFO  api.services.AccountService - Token generated successfully
+2026-09-17 18:28:41.768 [main] INFO  tests.base.BaseTest - Куки для юзера 'adminUi' успешно внедрены. Переходим сразу в Book Store...
+2026-09-17 18:28:43.136 [main] INFO  ui.pages.BasePage - Checking if Book Store page is opened
+2026-09-17 18:28:43.137 [main] INFO  ui.pages.BasePage - Waiting for page to load (document.readyState = complete)
+2026-09-17 18:28:43.148 [main] INFO  ui.pages.BasePage - Page loaded successfully
+2026-09-17 18:28:43.693 [main] INFO  core.utils.TestListener - ========== STARTING TEST: testSearchBookInBookStore ==========
+2026-09-17 18:28:43.713 [main] INFO  ui.pages.BasePage - Searching for book: You Don't Know JS
+2026-09-17 18:28:43.714 [main] INFO  ui.wrappers.Input - Writing 'You Don't Know JS' to input: By.id: searchBox
+2026-09-17 18:28:43.930 [main] INFO  ui.pages.BasePage - Checking if book is displayed: You Don't Know JS
+2026-09-17 18:28:43.940 [main] INFO  ui.pages.BasePage - ✅ Книга 'You Don't Know JS' визуально отображается на экране!
+2026-09-17 18:28:43.941 [main] INFO  core.utils.TestListener - ========== PASSED TEST: testSearchBookInBookStore ==========
+2026-09-17 18:28:43.942 [main] INFO  tests.base.BaseTest - Quitting driver after method
+2026-09-17 18:28:44.031 [main] INFO  tests.base.BaseTest - ========== DRIVER CLOSED ==========
+2026-09-17 18:28:44.037 [main] INFO  tests.base.BaseTest - Starting tests on browser: chrome
+2026-09-17 18:28:45.652 [main] INFO  ui.pages.BasePage - Opening Login page
+2026-09-17 18:28:46.600 [main] INFO  core.utils.TestListener - ========== STARTING TEST: loginFromDatabase ==========
+2026-09-17 18:28:46.606 [main] INFO  ui.pages.BasePage - Logging in from database
+2026-09-17 18:28:46.728 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-09-17 18:28:47.153 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3609b8f2
+2026-09-17 18:28:47.154 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-09-17 18:28:47.154 [main] INFO  core.database.DatabaseManager - ✅ Database connection pool initialized
+2026-09-17 18:28:47.154 [main] INFO  core.database.DatabaseManager - Fetching credentials for user role: admin
+2026-09-17 18:28:47.208 [main] INFO  core.database.DatabaseManager - Found user: admin6
+2026-09-17 18:28:47.212 [main] INFO  ui.pages.BasePage - Logging in with credentials: admin6
+2026-09-17 18:28:47.212 [main] INFO  ui.wrappers.Input - Writing 'admin6' to input: By.xpath: //label[contains(normalize-space(.),'userName')]//following::input[1] | //input[contains(normalize-space(@placeholder),'userName') or @id='userName' or @name='userName']
+2026-09-17 18:28:47.367 [main] INFO  ui.wrappers.Input - Writing 'Password123!' to input: By.xpath: //label[contains(normalize-space(.),'password')]//following::input[1] | //input[contains(normalize-space(@placeholder),'password') or @id='password' or @name='password']
+2026-09-17 18:28:47.472 [main] INFO  ui.wrappers.Buttons - Clicking on button: By.xpath: //button[normalize-space(text())='Login']
+2026-09-17 18:28:47.635 [main] INFO  ui.pages.BasePage - Verifying if login was successful by waiting for 'Log out' text...
+2026-09-17 18:28:49.777 [main] INFO  ui.pages.BasePage - Login verified: 'Log out' button is visible.
+2026-09-17 18:28:49.782 [main] INFO  core.utils.TestListener - ========== PASSED TEST: loginFromDatabase ==========
+2026-09-17 18:28:49.783 [main] INFO  tests.base.BaseTest - Quitting driver after method
+2026-09-17 18:28:49.872 [main] INFO  tests.base.BaseTest - ========== DRIVER CLOSED ==========
+2026-09-17 18:28:49.874 [main] INFO  tests.base.BaseTest - Starting tests on browser: chrome
+2026-09-17 18:28:51.134 [main] INFO  ui.pages.BasePage - Opening Login page
+2026-09-17 18:28:52.026 [main] INFO  core.utils.TestListener - ========== STARTING TEST: testOfLoginWithInvalidCredentials ==========
+2026-09-17 18:28:52.040 [main] INFO  ui.pages.BasePage - Logging in with credentials: admin6
+2026-09-17 18:28:52.040 [main] INFO  ui.wrappers.Input - Writing 'admin6' to input: By.xpath: //label[contains(normalize-space(.),'userName')]//following::input[1] | //input[contains(normalize-space(@placeholder),'userName') or @id='userName' or @name='userName']
+2026-09-17 18:28:52.145 [main] INFO  ui.wrappers.Input - Writing 'WrongPassword!' to input: By.xpath: //label[contains(normalize-space(.),'password')]//following::input[1] | //input[contains(normalize-space(@placeholder),'password') or @id='password' or @name='password']
+2026-09-17 18:28:52.234 [main] INFO  ui.wrappers.Buttons - Clicking on button: By.xpath: //button[normalize-space(text())='Login']
+2026-09-17 18:28:52.266 [main] INFO  ui.pages.BasePage - Verifying if login was successful by waiting for 'Log out' text...
+2026-09-17 18:28:57.439 [main] WARN  ui.pages.BasePage - Login failed: 'Log out' button did not appear.
+2026-09-17 18:28:57.453 [main] INFO  core.utils.TestListener - ========== PASSED TEST: testOfLoginWithInvalidCredentials ==========
+2026-09-17 18:28:57.456 [main] INFO  tests.base.BaseTest - Quitting driver after method
+2026-09-17 18:28:57.541 [main] INFO  tests.base.BaseTest - ========== DRIVER CLOSED ==========
+2026-09-17 18:28:57.542 [main] INFO  tests.base.BaseTest - Starting tests on browser: chrome
+2026-09-17 18:28:58.815 [main] INFO  ui.pages.BasePage - Opening Login page
+2026-09-17 18:28:59.535 [main] INFO  core.utils.TestListener - ========== STARTING TEST: testOfLoginWithInvalidCredentials ==========
+2026-09-17 18:28:59.545 [main] INFO  ui.pages.BasePage - Logging in with credentials: admin6
+2026-09-17 18:28:59.545 [main] INFO  ui.wrappers.Input - Writing 'admin6' to input: By.xpath: //label[contains(normalize-space(.),'userName')]//following::input[1] | //input[contains(normalize-space(@placeholder),'userName') or @id='userName' or @name='userName']
+2026-09-17 18:28:59.646 [main] INFO  ui.wrappers.Input - Writing '' to input: By.xpath: //label[contains(normalize-space(.),'password')]//following::input[1] | //input[contains(normalize-space(@placeholder),'password') or @id='password' or @name='password']
+2026-09-17 18:28:59.715 [main] INFO  ui.wrappers.Buttons - Clicking on button: By.xpath: //button[normalize-space(text())='Login']
+2026-09-17 18:28:59.745 [main] INFO  ui.pages.BasePage - Verifying if login was successful by waiting for 'Log out' text...
+2026-09-17 18:29:04.888 [main] WARN  ui.pages.BasePage - Login failed: 'Log out' button did not appear.
+2026-09-17 18:29:04.895 [main] INFO  core.utils.TestListener - ========== PASSED TEST: testOfLoginWithInvalidCredentials ==========
+2026-09-17 18:29:04.900 [main] INFO  tests.base.BaseTest - Quitting driver after method
+2026-09-17 18:29:04.991 [main] INFO  tests.base.BaseTest - ========== DRIVER CLOSED ==========
+2026-09-17 18:29:04.992 [main] INFO  tests.base.BaseTest - Starting tests on browser: chrome
+2026-09-17 18:29:06.112 [main] INFO  ui.pages.BasePage - Opening Login page
+2026-09-17 18:29:06.909 [main] INFO  core.utils.TestListener - ========== STARTING TEST: testOfLoginWithInvalidCredentials ==========
+2026-09-17 18:29:06.917 [main] INFO  ui.pages.BasePage - Logging in with credentials: admin6
+2026-09-17 18:29:06.917 [main] INFO  ui.wrappers.Input - Writing 'admin6' to input: By.xpath: //label[contains(normalize-space(.),'userName')]//following::input[1] | //input[contains(normalize-space(@placeholder),'userName') or @id='userName' or @name='userName']
+2026-09-17 18:29:07.020 [main] INFO  ui.wrappers.Input - Writing '123' to input: By.xpath: //label[contains(normalize-space(.),'password')]//following::input[1] | //input[contains(normalize-space(@placeholder),'password') or @id='password' or @name='password']
+2026-09-17 18:29:07.100 [main] INFO  ui.wrappers.Buttons - Clicking on button: By.xpath: //button[normalize-space(text())='Login']
+2026-09-17 18:29:07.135 [main] INFO  ui.pages.BasePage - Verifying if login was successful by waiting for 'Log out' text...
+2026-09-17 18:29:12.582 [main] WARN  ui.pages.BasePage - Login failed: 'Log out' button did not appear.
+2026-09-17 18:29:12.588 [main] INFO  core.utils.TestListener - ========== PASSED TEST: testOfLoginWithInvalidCredentials ==========
+2026-09-17 18:29:12.590 [main] INFO  tests.base.BaseTest - Quitting driver after method
+2026-09-17 18:29:12.685 [main] INFO  tests.base.BaseTest - ========== DRIVER CLOSED ==========
+2026-09-17 18:29:12.686 [main] INFO  tests.base.BaseTest - Starting tests on browser: chrome
+2026-09-17 18:29:13.875 [main] INFO  ui.pages.BasePage - Opening Login page
+2026-09-17 18:29:14.729 [main] INFO  core.utils.TestListener - ========== STARTING TEST: testOfLoginWithInvalidCredentials ==========
+2026-09-17 18:29:14.734 [main] INFO  ui.pages.BasePage - Logging in with credentials: admin6
+2026-09-17 18:29:14.734 [main] INFO  ui.wrappers.Input - Writing 'admin6' to input: By.xpath: //label[contains(normalize-space(.),'userName')]//following::input[1] | //input[contains(normalize-space(@placeholder),'userName') or @id='userName' or @name='userName']
+2026-09-17 18:29:14.825 [main] INFO  ui.wrappers.Input - Writing 'a@b#c$d%' to input: By.xpath: //label[contains(normalize-space(.),'password')]//following::input[1] | //input[contains(normalize-space(@placeholder),'password') or @id='password' or @name='password']
+2026-09-17 18:29:14.912 [main] INFO  ui.wrappers.Buttons - Clicking on button: By.xpath: //button[normalize-space(text())='Login']
+2026-09-17 18:29:14.943 [main] INFO  ui.pages.BasePage - Verifying if login was successful by waiting for 'Log out' text...
+2026-09-17 18:29:20.164 [main] WARN  ui.pages.BasePage - Login failed: 'Log out' button did not appear.
+2026-09-17 18:29:20.171 [main] INFO  core.utils.TestListener - ========== PASSED TEST: testOfLoginWithInvalidCredentials ==========
+2026-09-17 18:29:20.176 [main] INFO  tests.base.BaseTest - Quitting driver after method
+2026-09-17 18:29:20.270 [main] INFO  tests.base.BaseTest - ========== DRIVER CLOSED ==========
+2026-09-17 18:29:20.271 [main] INFO  tests.base.BaseTest - Starting tests on browser: chrome
+2026-09-17 18:29:21.552 [main] INFO  ui.pages.BasePage - Opening Login page
+2026-09-17 18:29:22.363 [main] INFO  core.utils.TestListener - ========== STARTING TEST: testOfLoginWithInvalidCredentials ==========
+2026-09-17 18:29:22.368 [main] INFO  ui.pages.BasePage - Logging in with credentials: admin6
+2026-09-17 18:29:22.368 [main] INFO  ui.wrappers.Input - Writing 'admin6' to input: By.xpath: //label[contains(normalize-space(.),'userName')]//following::input[1] | //input[contains(normalize-space(@placeholder),'userName') or @id='userName' or @name='userName']
+2026-09-17 18:29:22.499 [main] INFO  ui.wrappers.Input - Writing 'Password123!extra' to input: By.xpath: //label[contains(normalize-space(.),'password')]//following::input[1] | //input[contains(normalize-space(@placeholder),'password') or @id='password' or @name='password']
+2026-09-17 18:29:22.580 [main] INFO  ui.wrappers.Buttons - Clicking on button: By.xpath: //button[normalize-space(text())='Login']
+2026-09-17 18:29:22.623 [main] INFO  ui.pages.BasePage - Verifying if login was successful by waiting for 'Log out' text...
+2026-09-17 18:29:27.857 [main] WARN  ui.pages.BasePage - Login failed: 'Log out' button did not appear.
+2026-09-17 18:29:27.869 [main] INFO  core.utils.TestListener - ========== PASSED TEST: testOfLoginWithInvalidCredentials ==========
+2026-09-17 18:29:27.874 [main] INFO  tests.base.BaseTest - Quitting driver after method
+2026-09-17 18:29:27.965 [main] INFO  tests.base.BaseTest - ========== DRIVER CLOSED ==========
+2026-09-17 18:29:27.967 [main] INFO  tests.base.BaseTest - Starting tests on browser: chrome
+2026-09-17 18:29:29.101 [main] INFO  ui.pages.BasePage - Opening Login page
+2026-09-17 18:29:33.293 [main] INFO  core.utils.TestListener - ========== STARTING TEST: testOfLoginWithValidCredentials ==========
+2026-09-17 18:29:33.309 [main] INFO  ui.pages.BasePage - Logging in with credentials: admin6
+2026-09-17 18:29:33.309 [main] INFO  ui.wrappers.Input - Writing 'admin6' to input: By.xpath: //label[contains(normalize-space(.),'userName')]//following::input[1] | //input[contains(normalize-space(@placeholder),'userName') or @id='userName' or @name='userName']
+2026-09-17 18:29:33.445 [main] INFO  ui.wrappers.Input - Writing 'Password123!' to input: By.xpath: //label[contains(normalize-space(.),'password')]//following::input[1] | //input[contains(normalize-space(@placeholder),'password') or @id='password' or @name='password']
+2026-09-17 18:29:33.550 [main] INFO  ui.wrappers.Buttons - Clicking on button: By.xpath: //button[normalize-space(text())='Login']
+2026-09-17 18:29:33.585 [main] INFO  ui.pages.BasePage - Verifying if login was successful by waiting for 'Log out' text...
+2026-09-17 18:29:35.645 [main] INFO  ui.pages.BasePage - Login verified: 'Log out' button is visible.
+2026-09-17 18:29:35.647 [main] INFO  core.utils.TestListener - ========== PASSED TEST: testOfLoginWithValidCredentials ==========
+2026-09-17 18:29:35.648 [main] INFO  tests.base.BaseTest - Quitting driver after method
+2026-09-17 18:29:35.736 [main] INFO  tests.base.BaseTest - ========== DRIVER CLOSED ==========
+2026-09-17 18:29:36.478 [main] INFO  core.utils.TestListener - ========== STARTING TEST: testGenerateTokenFailure ==========
+2026-09-17 18:29:36.538 [main] INFO  api.services.AccountService - Sending generate token request for user: testUser
+2026-09-17 18:29:36.540 [main] WARN  api.services.AccountService - Token generation returned status: Failed, result: User authorization failed.
+2026-09-17 18:29:36.546 [main] INFO  core.utils.TestListener - ========== PASSED TEST: testGenerateTokenFailure ==========
+2026-09-17 18:29:36.548 [main] INFO  core.utils.TestListener - ========== STARTING TEST: testGenerateTokenSuccess ==========
+2026-09-17 18:29:36.550 [main] INFO  api.services.AccountService - Sending generate token request for user: testUser
+2026-09-17 18:29:36.550 [main] INFO  api.services.AccountService - Token generated successfully
+2026-09-17 18:29:36.551 [main] INFO  core.utils.TestListener - ========== PASSED TEST: testGenerateTokenSuccess ==========
+2026-09-17 18:29:36.552 [main] INFO  core.utils.TestListener - ========== STARTING TEST: testLoginSuccess ==========
+2026-09-17 18:29:36.554 [main] INFO  api.services.AccountService - Sending login request for user: testUser
+2026-09-17 18:29:36.555 [main] INFO  api.services.AccountService - Login successful
+2026-09-17 18:29:36.556 [main] INFO  core.utils.TestListener - ========== PASSED TEST: testLoginSuccess ==========
+2026-09-17 18:29:36.656 [main] INFO  core.utils.TestListener - ========== STARTING TEST: testDeleteAllBooks ==========
+2026-09-17 18:29:36.658 [main] INFO  api.services.BookStoreService - Deleting all books for user '123'
+2026-09-17 18:29:36.658 [main] INFO  api.services.BookStoreService - All books deleted successfully
+2026-09-17 18:29:36.659 [main] INFO  core.utils.TestListener - ========== PASSED TEST: testDeleteAllBooks ==========
+2026-09-17 18:29:36.661 [main] INFO  core.utils.TestListener - ========== STARTING TEST: testGetBookByIsbnNotFound ==========
+2026-09-17 18:29:36.663 [main] INFO  api.services.BookStoreService - Getting book by ISBN: invalid-isbn
+2026-09-17 18:29:36.664 [main] WARN  api.services.BookStoreService - Book with ISBN 'invalid-isbn' not found or request failed
+2026-09-17 18:29:36.665 [main] INFO  core.utils.TestListener - ========== PASSED TEST: testGetBookByIsbnNotFound ==========
+2026-09-17 18:29:36.667 [main] INFO  core.utils.TestListener - ========== STARTING TEST: testGetBooksSuccess ==========
+2026-09-17 18:29:36.668 [main] INFO  api.services.BookStoreService - Getting all books
+2026-09-17 18:29:36.668 [main] INFO  api.services.BookStoreService - Retrieved 0 books
+2026-09-17 18:29:36.669 [main] INFO  core.utils.TestListener - ========== PASSED TEST: testGetBooksSuccess ==========
+2026-09-17 18:29:36.720 [main] INFO  org.apache.kafka.common.config.AbstractConfig - ProducerConfig values: 
+	acks = -1
+	batch.size = 16384
+	bootstrap.servers = [localhost:9092]
+	buffer.memory = 33554432
+	client.dns.lookup = use_all_dns_ips
+	client.id = producer-1
+	compression.gzip.level = -1
+	compression.lz4.level = 9
+	compression.type = none
+	compression.zstd.level = 3
+	config.providers = []
+	connections.max.idle.ms = 540000
+	delivery.timeout.ms = 120000
+	enable.idempotence = true
+	enable.metrics.push = true
+	interceptor.classes = []
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 5
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metadata.max.idle.ms = 300000
+	metadata.recovery.rebootstrap.trigger.ms = 300000
+	metadata.recovery.strategy = rebootstrap
+	metric.reporters = [org.apache.kafka.common.metrics.JmxReporter]
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.adaptive.partitioning.enable = true
+	partitioner.availability.timeout.ms = 0
+	partitioner.class = null
+	partitioner.ignore.keys = false
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.max.ms = 1000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.assertion.algorithm = RS256
+	sasl.oauthbearer.assertion.claim.aud = null
+	sasl.oauthbearer.assertion.claim.exp.seconds = 300
+	sasl.oauthbearer.assertion.claim.iss = null
+	sasl.oauthbearer.assertion.claim.jti.include = false
+	sasl.oauthbearer.assertion.claim.nbf.seconds = 60
+	sasl.oauthbearer.assertion.claim.sub = null
+	sasl.oauthbearer.assertion.file = null
+	sasl.oauthbearer.assertion.private.key.file = null
+	sasl.oauthbearer.assertion.private.key.passphrase = null
+	sasl.oauthbearer.assertion.template.file = null
+	sasl.oauthbearer.client.credentials.client.id = null
+	sasl.oauthbearer.client.credentials.client.secret = null
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = []
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.header.urlencode = false
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.jwt.retriever.class = class org.apache.kafka.common.security.oauthbearer.DefaultJwtRetriever
+	sasl.oauthbearer.jwt.validator.class = class org.apache.kafka.common.security.oauthbearer.DefaultJwtValidator
+	sasl.oauthbearer.scope = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = []
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transaction.two.phase.commit.enable = false
+	transactional.id = null
+	value.serializer = class org.apache.kafka.common.serialization.StringSerializer
+
+2026-09-17 18:29:36.768 [main] INFO  org.apache.kafka.common.telemetry.internals.KafkaMetricsCollector - initializing Kafka metrics collector
+2026-09-17 18:29:36.788 [main] INFO  org.apache.kafka.clients.producer.KafkaProducer - [Producer clientId=producer-1] Instantiated an idempotent producer.
+2026-09-17 18:29:36.825 [main] INFO  org.apache.kafka.common.utils.AppInfoParser - Kafka version: 4.2.0
+2026-09-17 18:29:36.825 [main] INFO  org.apache.kafka.common.utils.AppInfoParser - Kafka commitId: a18251bae0b825c6
+2026-09-17 18:29:36.825 [main] INFO  org.apache.kafka.common.utils.AppInfoParser - Kafka startTimeMs: 1789658976823
+2026-09-17 18:29:36.842 [main] INFO  org.apache.kafka.common.config.AbstractConfig - ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = earliest
+	bootstrap.servers = [localhost:9092]
+	check.crcs = true
+	client.dns.lookup = use_all_dns_ips
+	client.id = consumer-test-group-4762973f-8275-45f0-bd03-99796be5ba34-1
+	client.rack = 
+	config.providers = []
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = true
+	enable.metrics.push = true
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = test-group-4762973f-8275-45f0-bd03-99796be5ba34
+	group.instance.id = null
+	group.protocol = classic
+	group.remote.assignor = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.throw.on.fetch.stable.offset.unsupported = false
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metadata.recovery.rebootstrap.trigger.ms = 300000
+	metadata.recovery.strategy = rebootstrap
+	metric.reporters = [org.apache.kafka.common.metrics.JmxReporter]
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor, class org.apache.kafka.clients.consumer.CooperativeStickyAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.max.ms = 1000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.assertion.algorithm = RS256
+	sasl.oauthbearer.assertion.claim.aud = null
+	sasl.oauthbearer.assertion.claim.exp.seconds = 300
+	sasl.oauthbearer.assertion.claim.iss = null
+	sasl.oauthbearer.assertion.claim.jti.include = false
+	sasl.oauthbearer.assertion.claim.nbf.seconds = 60
+	sasl.oauthbearer.assertion.claim.sub = null
+	sasl.oauthbearer.assertion.file = null
+	sasl.oauthbearer.assertion.private.key.file = null
+	sasl.oauthbearer.assertion.private.key.passphrase = null
+	sasl.oauthbearer.assertion.template.file = null
+	sasl.oauthbearer.client.credentials.client.id = null
+	sasl.oauthbearer.client.credentials.client.secret = null
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = []
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.header.urlencode = false
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.jwt.retriever.class = class org.apache.kafka.common.security.oauthbearer.DefaultJwtRetriever
+	sasl.oauthbearer.jwt.validator.class = class org.apache.kafka.common.security.oauthbearer.DefaultJwtValidator
+	sasl.oauthbearer.scope = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 45000
+	share.acknowledgement.mode = implicit
+	share.acquire.mode = BATCH_OPTIMIZED
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = []
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+2026-09-17 18:29:36.854 [main] INFO  org.apache.kafka.common.telemetry.internals.KafkaMetricsCollector - initializing Kafka metrics collector
+2026-09-17 18:29:36.940 [main] INFO  org.apache.kafka.common.utils.AppInfoParser - Kafka version: 4.2.0
+2026-09-17 18:29:36.940 [main] INFO  org.apache.kafka.common.utils.AppInfoParser - Kafka commitId: a18251bae0b825c6
+2026-09-17 18:29:36.940 [main] INFO  org.apache.kafka.common.utils.AppInfoParser - Kafka startTimeMs: 1789658976940
+2026-09-17 18:29:36.945 [main] INFO  org.apache.kafka.clients.consumer.internals.ClassicKafkaConsumer - [Consumer clientId=consumer-test-group-4762973f-8275-45f0-bd03-99796be5ba34-1, groupId=test-group-4762973f-8275-45f0-bd03-99796be5ba34] Subscribed to topic(s): test-execution-results
+2026-09-17 18:29:36.946 [main] INFO  core.utils.TestListener - ========== STARTING TEST: testKafkaMessageFlow ==========
+2026-09-17 18:29:36.949 [main] INFO  core.kafka.KafkaClientProducer - Sending message to topic 'test-execution-results': {"status": "SUCCESS", "test": "LoginTest"}
+2026-09-17 18:29:37.291 [kafka-producer-network-thread | producer-1] INFO  org.apache.kafka.clients.Metadata - [Producer clientId=producer-1] Cluster ID: 5L6g3nShT-eMCtK--X86sw
+2026-09-17 18:29:37.295 [kafka-producer-network-thread | producer-1] INFO  org.apache.kafka.clients.producer.internals.TransactionManager - [Producer clientId=producer-1] ProducerId set to 17 with epoch 0
+2026-09-17 18:29:37.412 [awaitility-thread] INFO  core.kafka.KafkaClientConsumer - Polling messages from Kafka...
+2026-09-17 18:29:37.422 [awaitility-thread] INFO  org.apache.kafka.clients.Metadata - [Consumer clientId=consumer-test-group-4762973f-8275-45f0-bd03-99796be5ba34-1, groupId=test-group-4762973f-8275-45f0-bd03-99796be5ba34] Cluster ID: 5L6g3nShT-eMCtK--X86sw
+2026-09-17 18:29:37.435 [awaitility-thread] INFO  org.apache.kafka.clients.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-test-group-4762973f-8275-45f0-bd03-99796be5ba34-1, groupId=test-group-4762973f-8275-45f0-bd03-99796be5ba34] Discovered group coordinator localhost:9092 (id: 2147483646 rack: null isFenced: false)
+2026-09-17 18:29:37.440 [awaitility-thread] INFO  org.apache.kafka.clients.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-test-group-4762973f-8275-45f0-bd03-99796be5ba34-1, groupId=test-group-4762973f-8275-45f0-bd03-99796be5ba34] (Re-)joining group
+2026-09-17 18:29:37.452 [kafka-producer-network-thread | producer-1] INFO  core.kafka.KafkaClientProducer - Message sent successfully to partition 0 with offset 17
+2026-09-17 18:29:37.516 [awaitility-thread] INFO  org.apache.kafka.clients.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-test-group-4762973f-8275-45f0-bd03-99796be5ba34-1, groupId=test-group-4762973f-8275-45f0-bd03-99796be5ba34] Request joining group due to: need to re-join with the given member-id: consumer-test-group-4762973f-8275-45f0-bd03-99796be5ba34-1-bac27c3e-850c-4849-9849-857cf1c12b43
+2026-09-17 18:29:37.516 [awaitility-thread] INFO  org.apache.kafka.clients.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-test-group-4762973f-8275-45f0-bd03-99796be5ba34-1, groupId=test-group-4762973f-8275-45f0-bd03-99796be5ba34] (Re-)joining group
+2026-09-17 18:29:37.570 [awaitility-thread] INFO  org.apache.kafka.clients.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-test-group-4762973f-8275-45f0-bd03-99796be5ba34-1, groupId=test-group-4762973f-8275-45f0-bd03-99796be5ba34] Successfully joined group with generation Generation{generationId=1, memberId='consumer-test-group-4762973f-8275-45f0-bd03-99796be5ba34-1-bac27c3e-850c-4849-9849-857cf1c12b43', protocol='range'}
+2026-09-17 18:29:37.574 [awaitility-thread] INFO  org.apache.kafka.clients.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-test-group-4762973f-8275-45f0-bd03-99796be5ba34-1, groupId=test-group-4762973f-8275-45f0-bd03-99796be5ba34] Finished assignment for group at generation 1: {consumer-test-group-4762973f-8275-45f0-bd03-99796be5ba34-1-bac27c3e-850c-4849-9849-857cf1c12b43=Assignment(partitions=[test-execution-results-0])}
+2026-09-17 18:29:37.581 [awaitility-thread] INFO  org.apache.kafka.clients.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-test-group-4762973f-8275-45f0-bd03-99796be5ba34-1, groupId=test-group-4762973f-8275-45f0-bd03-99796be5ba34] Successfully synced group in generation Generation{generationId=1, memberId='consumer-test-group-4762973f-8275-45f0-bd03-99796be5ba34-1-bac27c3e-850c-4849-9849-857cf1c12b43', protocol='range'}
+2026-09-17 18:29:37.581 [awaitility-thread] INFO  org.apache.kafka.clients.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-test-group-4762973f-8275-45f0-bd03-99796be5ba34-1, groupId=test-group-4762973f-8275-45f0-bd03-99796be5ba34] Notifying assignor about the new Assignment(partitions=[test-execution-results-0])
+2026-09-17 18:29:37.582 [awaitility-thread] INFO  org.apache.kafka.clients.consumer.internals.ConsumerRebalanceListenerInvoker - [Consumer clientId=consumer-test-group-4762973f-8275-45f0-bd03-99796be5ba34-1, groupId=test-group-4762973f-8275-45f0-bd03-99796be5ba34] Adding newly assigned partitions: [test-execution-results-0]
+2026-09-17 18:29:37.590 [awaitility-thread] INFO  org.apache.kafka.clients.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-test-group-4762973f-8275-45f0-bd03-99796be5ba34-1, groupId=test-group-4762973f-8275-45f0-bd03-99796be5ba34] Found no committed offset for partition test-execution-results-0
+2026-09-17 18:29:37.618 [awaitility-thread] INFO  org.apache.kafka.clients.consumer.internals.SubscriptionState - [Consumer clientId=consumer-test-group-4762973f-8275-45f0-bd03-99796be5ba34-1, groupId=test-group-4762973f-8275-45f0-bd03-99796be5ba34] Resetting offset for partition test-execution-results-0 to position FetchPosition{offset=2, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[localhost:9092 (id: 1 rack: null isFenced: false)], epoch=0}}.
+2026-09-17 18:29:37.682 [main] INFO  core.utils.TestListener - ========== PASSED TEST: testKafkaMessageFlow ==========
+2026-09-17 18:29:37.683 [main] INFO  org.apache.kafka.clients.producer.KafkaProducer - [Producer clientId=producer-1] Closing the Kafka producer with timeoutMillis = 9223372036854775807 ms.
+2026-09-17 18:29:37.689 [main] INFO  org.apache.kafka.common.metrics.Metrics - Metrics scheduler closed
+2026-09-17 18:29:37.689 [main] INFO  org.apache.kafka.common.metrics.Metrics - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2026-09-17 18:29:37.689 [main] INFO  org.apache.kafka.common.metrics.Metrics - Closing reporter org.apache.kafka.common.telemetry.internals.ClientTelemetryReporter
+2026-09-17 18:29:37.689 [main] INFO  org.apache.kafka.common.metrics.Metrics - Metrics reporters closed
+2026-09-17 18:29:37.691 [main] INFO  org.apache.kafka.common.utils.AppInfoParser - App info kafka.producer for producer-1 unregistered
+2026-09-17 18:29:37.721 [main] INFO  org.apache.kafka.clients.consumer.internals.ConsumerRebalanceListenerInvoker - [Consumer clientId=consumer-test-group-4762973f-8275-45f0-bd03-99796be5ba34-1, groupId=test-group-4762973f-8275-45f0-bd03-99796be5ba34] Revoke previously assigned partitions [test-execution-results-0]
+2026-09-17 18:29:37.722 [main] INFO  org.apache.kafka.clients.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-test-group-4762973f-8275-45f0-bd03-99796be5ba34-1, groupId=test-group-4762973f-8275-45f0-bd03-99796be5ba34] Member consumer-test-group-4762973f-8275-45f0-bd03-99796be5ba34-1-bac27c3e-850c-4849-9849-857cf1c12b43 sending LeaveGroup request to coordinator localhost:9092 (id: 2147483646 rack: null isFenced: false) due to the consumer is being closed
+2026-09-17 18:29:37.722 [main] INFO  org.apache.kafka.clients.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-test-group-4762973f-8275-45f0-bd03-99796be5ba34-1, groupId=test-group-4762973f-8275-45f0-bd03-99796be5ba34] Resetting generation and member id due to: consumer pro-actively leaving the group
+2026-09-17 18:29:37.722 [main] INFO  org.apache.kafka.clients.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-test-group-4762973f-8275-45f0-bd03-99796be5ba34-1, groupId=test-group-4762973f-8275-45f0-bd03-99796be5ba34] Request joining group due to: consumer pro-actively leaving the group
+2026-09-17 18:29:37.749 [main] INFO  org.apache.kafka.common.metrics.Metrics - Metrics scheduler closed
+2026-09-17 18:29:37.749 [main] INFO  org.apache.kafka.common.metrics.Metrics - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2026-09-17 18:29:37.749 [main] INFO  org.apache.kafka.common.metrics.Metrics - Closing reporter org.apache.kafka.common.telemetry.internals.ClientTelemetryReporter
+2026-09-17 18:29:37.749 [main] INFO  org.apache.kafka.common.metrics.Metrics - Metrics reporters closed
+2026-09-17 18:29:37.751 [main] INFO  org.apache.kafka.common.utils.AppInfoParser - App info kafka.consumer for consumer-test-group-4762973f-8275-45f0-bd03-99796be5ba34-1 unregistered
+2026-09-17 18:29:37.752 [main] INFO  tests.base.BaseApiTest - Setting up API credentials...
+2026-09-17 18:29:37.753 [main] INFO  api.services.AccountService - Sending login request for user: admin6
+2026-09-17 18:29:38.695 [main] INFO  api.services.AccountService - Login successful
+2026-09-17 18:29:38.696 [main] INFO  api.services.AccountService - Sending generate token request for user: admin6
+2026-09-17 18:29:40.234 [main] INFO  api.services.AccountService - Token generated successfully
+2026-09-17 18:29:40.235 [main] INFO  tests.base.BaseApiTest - API Setup successful. UserID: a9db5160-3ddc-4c00-b81f-9076c3353d37
+2026-09-17 18:29:40.243 [main] INFO  tests.api.BookStoreTest - Cleaning up user's book collection before test
+2026-09-17 18:29:40.245 [main] INFO  api.services.BookStoreService - Deleting all books for user 'a9db5160-3ddc-4c00-b81f-9076c3353d37'
+2026-09-17 18:29:41.887 [main] INFO  api.services.BookStoreService - All books deleted successfully
+2026-09-17 18:29:41.888 [main] INFO  api.services.BookStoreService - Getting all books
+2026-09-17 18:29:42.285 [main] INFO  api.services.BookStoreService - Retrieved 8 books
+2026-09-17 18:29:42.285 [main] INFO  tests.api.BookStoreTest - First book ISBN: 9781449325862
+2026-09-17 18:29:42.286 [main] INFO  core.utils.TestListener - ========== STARTING TEST: testAddBook ==========
+2026-09-17 18:29:42.291 [main] INFO  tests.api.BookStoreTest - Starting test: Add book to collection. ISBN: 9781449325862
+2026-09-17 18:29:42.291 [main] INFO  api.services.BookStoreService - Adding book with ISBN '9781449325862' to user 'a9db5160-3ddc-4c00-b81f-9076c3353d37'
+2026-09-17 18:29:42.724 [main] INFO  api.services.BookStoreService - Book added successfully
+2026-09-17 18:29:42.724 [main] INFO  tests.api.BookStoreTest - Book added successfully, verifying...
+2026-09-17 18:29:42.725 [main] INFO  api.services.BookStoreService - Getting books for user 'a9db5160-3ddc-4c00-b81f-9076c3353d37'
+2026-09-17 18:29:43.146 [main] INFO  tests.api.BookStoreTest - Book verified in user's collection
+2026-09-17 18:29:43.149 [main] INFO  core.utils.TestListener - ========== PASSED TEST: testAddBook ==========
+2026-09-17 18:29:43.151 [main] INFO  tests.api.BookStoreTest - Cleaning up user's book collection before test
+2026-09-17 18:29:43.152 [main] INFO  api.services.BookStoreService - Deleting all books for user 'a9db5160-3ddc-4c00-b81f-9076c3353d37'
+2026-09-17 18:29:43.883 [main] INFO  api.services.BookStoreService - All books deleted successfully
+2026-09-17 18:29:43.884 [main] INFO  api.services.BookStoreService - Getting all books
+2026-09-17 18:29:44.278 [main] INFO  api.services.BookStoreService - Retrieved 8 books
+2026-09-17 18:29:44.278 [main] INFO  tests.api.BookStoreTest - First book ISBN: 9781449325862
+2026-09-17 18:29:44.281 [main] INFO  core.utils.TestListener - ========== STARTING TEST: testDeleteBooks ==========
+2026-09-17 18:29:44.287 [main] INFO  tests.api.BookStoreTest - Starting test: Delete all books from collection
+2026-09-17 18:29:44.288 [main] INFO  api.services.BookStoreService - Adding book with ISBN '9781449325862' to user 'a9db5160-3ddc-4c00-b81f-9076c3353d37'
+2026-09-17 18:29:44.814 [main] INFO  api.services.BookStoreService - Book added successfully
+2026-09-17 18:29:44.814 [main] INFO  tests.api.BookStoreTest - Added test book before deletion
+2026-09-17 18:29:44.815 [main] INFO  api.services.BookStoreService - Deleting all books for user 'a9db5160-3ddc-4c00-b81f-9076c3353d37'
+2026-09-17 18:29:45.552 [main] INFO  api.services.BookStoreService - All books deleted successfully
+2026-09-17 18:29:45.554 [main] INFO  api.services.BookStoreService - Getting books for user 'a9db5160-3ddc-4c00-b81f-9076c3353d37'
+2026-09-17 18:29:45.978 [main] INFO  tests.api.BookStoreTest - All books deleted successfully
+2026-09-17 18:29:45.981 [main] INFO  core.utils.TestListener - ========== PASSED TEST: testDeleteBooks ==========
+2026-09-17 18:29:45.983 [main] INFO  tests.api.BookStoreTest - Cleaning up user's book collection before test
+2026-09-17 18:29:45.984 [main] INFO  api.services.BookStoreService - Deleting all books for user 'a9db5160-3ddc-4c00-b81f-9076c3353d37'
+2026-09-17 18:29:46.409 [main] INFO  api.services.BookStoreService - All books deleted successfully
+2026-09-17 18:29:46.410 [main] INFO  api.services.BookStoreService - Getting all books
+2026-09-17 18:29:46.718 [main] INFO  api.services.BookStoreService - Retrieved 8 books
+2026-09-17 18:29:46.718 [main] INFO  tests.api.BookStoreTest - First book ISBN: 9781449325862
+2026-09-17 18:29:46.720 [main] INFO  core.utils.TestListener - ========== STARTING TEST: testGetBooks ==========
+2026-09-17 18:29:46.722 [main] INFO  tests.api.BookStoreTest - Starting test: Get all books
+2026-09-17 18:29:46.722 [main] INFO  api.services.BookStoreService - Getting all books
+2026-09-17 18:29:47.110 [main] INFO  api.services.BookStoreService - Retrieved 8 books
+2026-09-17 18:29:47.111 [main] INFO  tests.api.BookStoreTest - Retrieved 8 books
+2026-09-17 18:29:47.112 [main] INFO  core.utils.TestListener - ========== PASSED TEST: testGetBooks ==========
+2026-09-17 18:29:47.114 [main] INFO  tests.base.BaseApiTest - Setting up API credentials...
+2026-09-17 18:29:47.114 [main] INFO  api.services.AccountService - Sending login request for user: admin6
+2026-09-17 18:29:48.117 [main] INFO  api.services.AccountService - Login successful
+2026-09-17 18:29:48.124 [main] INFO  api.services.AccountService - Sending generate token request for user: admin6
+2026-09-17 18:29:49.597 [main] INFO  api.services.AccountService - Token generated successfully
+2026-09-17 18:29:49.601 [main] INFO  tests.base.BaseApiTest - API Setup successful. UserID: a9db5160-3ddc-4c00-b81f-9076c3353d37
+2026-09-17 18:29:49.603 [main] INFO  core.utils.TestListener - ========== STARTING TEST: testGenerateToken ==========
+2026-09-17 18:29:49.613 [main] INFO  tests.api.AuthorizationTest - Starting test: Generate access token
+2026-09-17 18:29:49.613 [main] INFO  tests.api.AuthorizationTest - Requesting token for user: admin6
+2026-09-17 18:29:49.614 [main] INFO  api.services.AccountService - Sending generate token request for user: admin6
+2026-09-17 18:29:51.013 [main] INFO  api.services.AccountService - Token generated successfully
+2026-09-17 18:29:51.014 [main] INFO  tests.api.AuthorizationTest - Token generated successfully. Token: eyJhbG...FG6I
+2026-09-17 18:29:51.017 [main] INFO  core.utils.TestListener - ========== PASSED TEST: testGenerateToken ==========
+2026-09-17 18:29:51.018 [main] INFO  core.utils.TestListener - ========== STARTING TEST: testLogin ==========
+2026-09-17 18:29:51.020 [main] INFO  tests.api.AuthorizationTest - Starting test: User login
+2026-09-17 18:29:51.021 [main] INFO  tests.api.AuthorizationTest - Attempting login for user: admin6
+2026-09-17 18:29:51.021 [main] INFO  api.services.AccountService - Sending login request for user: admin6
+2026-09-17 18:29:51.977 [main] INFO  api.services.AccountService - Login successful
+2026-09-17 18:29:51.977 [main] INFO  tests.api.AuthorizationTest - Login successful for user: admin6
+2026-09-17 18:29:51.979 [main] INFO  core.utils.TestListener - ========== PASSED TEST: testLogin ==========
+2026-09-17 18:29:52.014 [main] INFO  core.utils.TestListener - ========== SUITE FINISHED: Surefire test ==========
+2026-09-17 18:44:56.100 [main] INFO  core.utils.TestListener - ========== SUITE STARTED: Surefire test ==========
+2026-09-17 18:44:56.132 [main] INFO  core.utils.property.PropertyConfig - ✅ config.properties loaded successfully
+2026-09-17 18:44:56.132 [main] INFO  tests.base.BaseTest - Starting tests on browser: chrome
+2026-09-17 18:44:59.118 [main] INFO  tests.base.BaseTest - PRE-CONDITION: Быстрая авторизация через API для UI-тестов под юзером: adminUi
+2026-09-17 18:44:59.127 [main] INFO  api.services.AccountService - Sending generate token request for user: adminUi
+2026-09-17 18:45:01.636 [main] INFO  api.services.AccountService - Token generated successfully
+2026-09-17 18:45:02.674 [main] INFO  tests.base.BaseTest - Куки для юзера 'adminUi' успешно внедрены. Переходим сразу в Book Store...
+2026-09-17 18:45:03.069 [main] INFO  ui.pages.BasePage - Checking if Book Store page is opened
+2026-09-17 18:45:03.069 [main] INFO  ui.pages.BasePage - Waiting for page to load (document.readyState = complete)
+2026-09-17 18:45:03.072 [main] INFO  ui.pages.BasePage - Page loaded successfully
+2026-09-17 18:45:03.679 [main] INFO  core.utils.TestListener - ========== STARTING TEST: testLoginAndNavigateToBookStore ==========
+2026-09-17 18:45:03.706 [main] INFO  core.utils.TestListener - ========== PASSED TEST: testLoginAndNavigateToBookStore ==========
+2026-09-17 18:45:03.706 [main] INFO  tests.base.BaseTest - Quitting driver after method
+2026-09-17 18:45:03.799 [main] INFO  tests.base.BaseTest - ========== DRIVER CLOSED ==========
+2026-09-17 18:45:03.802 [main] INFO  tests.base.BaseTest - Starting tests on browser: chrome
+2026-09-17 18:45:04.957 [main] INFO  tests.base.BaseTest - PRE-CONDITION: Быстрая авторизация через API для UI-тестов под юзером: adminUi
+2026-09-17 18:45:04.961 [main] INFO  api.services.AccountService - Sending generate token request for user: adminUi
+2026-09-17 18:45:06.757 [main] INFO  api.services.AccountService - Token generated successfully
+2026-09-17 18:45:08.055 [main] INFO  tests.base.BaseTest - Куки для юзера 'adminUi' успешно внедрены. Переходим сразу в Book Store...
+2026-09-17 18:45:08.739 [main] INFO  ui.pages.BasePage - Checking if Book Store page is opened
+2026-09-17 18:45:08.739 [main] INFO  ui.pages.BasePage - Waiting for page to load (document.readyState = complete)
+2026-09-17 18:45:08.744 [main] INFO  ui.pages.BasePage - Page loaded successfully
+2026-09-17 18:45:09.265 [main] INFO  core.utils.TestListener - ========== STARTING TEST: testSearchBookInBookStore ==========
+2026-09-17 18:45:09.277 [main] INFO  ui.pages.BasePage - Searching for book: Programming JavaScript Applications
+2026-09-17 18:45:09.283 [main] INFO  ui.wrappers.Input - Writing 'Programming JavaScript Applications' to input: By.id: searchBox
+2026-09-17 18:45:09.512 [main] INFO  ui.pages.BasePage - Checking if book is displayed: Programming JavaScript Applications
+2026-09-17 18:45:09.525 [main] INFO  ui.pages.BasePage - ✅ Книга 'Programming JavaScript Applications' визуально отображается на экране!
+2026-09-17 18:45:09.527 [main] INFO  core.utils.TestListener - ========== PASSED TEST: testSearchBookInBookStore ==========
+2026-09-17 18:45:09.527 [main] INFO  tests.base.BaseTest - Quitting driver after method
+2026-09-17 18:45:09.612 [main] INFO  tests.base.BaseTest - ========== DRIVER CLOSED ==========
+2026-09-17 18:45:09.614 [main] INFO  tests.base.BaseTest - Starting tests on browser: chrome
+2026-09-17 18:45:10.699 [main] INFO  tests.base.BaseTest - PRE-CONDITION: Быстрая авторизация через API для UI-тестов под юзером: adminUi
+2026-09-17 18:45:10.699 [main] INFO  api.services.AccountService - Sending generate token request for user: adminUi
+2026-09-17 18:45:12.295 [main] INFO  api.services.AccountService - Token generated successfully
+2026-09-17 18:45:13.236 [main] INFO  tests.base.BaseTest - Куки для юзера 'adminUi' успешно внедрены. Переходим сразу в Book Store...
+2026-09-17 18:45:13.508 [main] INFO  ui.pages.BasePage - Checking if Book Store page is opened
+2026-09-17 18:45:13.509 [main] INFO  ui.pages.BasePage - Waiting for page to load (document.readyState = complete)
+2026-09-17 18:45:13.512 [main] INFO  ui.pages.BasePage - Page loaded successfully
+2026-09-17 18:45:14.029 [main] INFO  core.utils.TestListener - ========== STARTING TEST: testSearchBookInBookStore ==========
+2026-09-17 18:45:14.032 [main] INFO  ui.pages.BasePage - Searching for book: Speaking JavaScript
+2026-09-17 18:45:14.033 [main] INFO  ui.wrappers.Input - Writing 'Speaking JavaScript' to input: By.id: searchBox
+2026-09-17 18:45:14.163 [main] INFO  ui.pages.BasePage - Checking if book is displayed: Speaking JavaScript
+2026-09-17 18:45:14.173 [main] INFO  ui.pages.BasePage - ✅ Книга 'Speaking JavaScript' визуально отображается на экране!
+2026-09-17 18:45:14.174 [main] INFO  core.utils.TestListener - ========== PASSED TEST: testSearchBookInBookStore ==========
+2026-09-17 18:45:14.175 [main] INFO  tests.base.BaseTest - Quitting driver after method
+2026-09-17 18:45:14.266 [main] INFO  tests.base.BaseTest - ========== DRIVER CLOSED ==========
+2026-09-17 18:45:14.267 [main] INFO  tests.base.BaseTest - Starting tests on browser: chrome
+2026-09-17 18:45:15.348 [main] INFO  tests.base.BaseTest - PRE-CONDITION: Быстрая авторизация через API для UI-тестов под юзером: adminUi
+2026-09-17 18:45:15.349 [main] INFO  api.services.AccountService - Sending generate token request for user: adminUi
+2026-09-17 18:45:16.850 [main] INFO  api.services.AccountService - Token generated successfully
+2026-09-17 18:45:17.765 [main] INFO  tests.base.BaseTest - Куки для юзера 'adminUi' успешно внедрены. Переходим сразу в Book Store...
+2026-09-17 18:45:18.057 [main] INFO  ui.pages.BasePage - Checking if Book Store page is opened
+2026-09-17 18:45:18.057 [main] INFO  ui.pages.BasePage - Waiting for page to load (document.readyState = complete)
+2026-09-17 18:45:18.062 [main] INFO  ui.pages.BasePage - Page loaded successfully
+2026-09-17 18:45:18.594 [main] INFO  core.utils.TestListener - ========== STARTING TEST: testSearchBookInBookStore ==========
+2026-09-17 18:45:18.607 [main] INFO  ui.pages.BasePage - Searching for book: You Don't Know JS
+2026-09-17 18:45:18.607 [main] INFO  ui.wrappers.Input - Writing 'You Don't Know JS' to input: By.id: searchBox
+2026-09-17 18:45:18.739 [main] INFO  ui.pages.BasePage - Checking if book is displayed: You Don't Know JS
+2026-09-17 18:45:18.751 [main] INFO  ui.pages.BasePage - ✅ Книга 'You Don't Know JS' визуально отображается на экране!
+2026-09-17 18:45:18.752 [main] INFO  core.utils.TestListener - ========== PASSED TEST: testSearchBookInBookStore ==========
+2026-09-17 18:45:18.752 [main] INFO  tests.base.BaseTest - Quitting driver after method
+2026-09-17 18:45:18.837 [main] INFO  tests.base.BaseTest - ========== DRIVER CLOSED ==========
+2026-09-17 18:45:18.841 [main] INFO  tests.base.BaseTest - Starting tests on browser: chrome
+2026-09-17 18:45:19.975 [main] INFO  ui.pages.BasePage - Opening Login page
+2026-09-17 18:45:20.896 [main] INFO  core.utils.TestListener - ========== STARTING TEST: loginFromDatabase ==========
+2026-09-17 18:45:20.904 [main] INFO  ui.pages.BasePage - Logging in from database
+2026-09-17 18:45:20.927 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-09-17 18:45:21.074 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@74fa4891
+2026-09-17 18:45:21.075 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-09-17 18:45:21.075 [main] INFO  core.database.DatabaseManager - ✅ Database connection pool initialized
+2026-09-17 18:45:21.075 [main] INFO  core.database.DatabaseManager - Fetching credentials for user role: admin
+2026-09-17 18:45:21.095 [main] INFO  core.database.DatabaseManager - Found user: admin6
+2026-09-17 18:45:21.099 [main] INFO  ui.pages.BasePage - Logging in with credentials: admin6
+2026-09-17 18:45:21.100 [main] INFO  ui.wrappers.Input - Writing 'admin6' to input: By.xpath: //label[contains(normalize-space(.),'userName')]//following::input[1] | //input[contains(normalize-space(@placeholder),'userName') or @id='userName' or @name='userName']
+2026-09-17 18:45:21.213 [main] INFO  ui.wrappers.Input - Writing 'Password123!' to input: By.xpath: //label[contains(normalize-space(.),'password')]//following::input[1] | //input[contains(normalize-space(@placeholder),'password') or @id='password' or @name='password']
+2026-09-17 18:45:21.311 [main] INFO  ui.wrappers.Buttons - Clicking on button: By.xpath: //button[normalize-space(text())='Login']
+2026-09-17 18:45:21.373 [main] INFO  ui.pages.BasePage - Verifying if login was successful by waiting for 'Log out' text...
+2026-09-17 18:45:23.441 [main] INFO  ui.pages.BasePage - Login verified: 'Log out' button is visible.
+2026-09-17 18:45:23.466 [main] INFO  core.utils.TestListener - ========== PASSED TEST: loginFromDatabase ==========
+2026-09-17 18:45:23.471 [main] INFO  tests.base.BaseTest - Quitting driver after method
+2026-09-17 18:45:23.564 [main] INFO  tests.base.BaseTest - ========== DRIVER CLOSED ==========
+2026-09-17 18:45:23.566 [main] INFO  tests.base.BaseTest - Starting tests on browser: chrome
+2026-09-17 18:45:24.803 [main] INFO  ui.pages.BasePage - Opening Login page
+2026-09-17 18:45:25.764 [main] INFO  core.utils.TestListener - ========== STARTING TEST: testOfLoginWithInvalidCredentials ==========
+2026-09-17 18:45:25.773 [main] INFO  ui.pages.BasePage - Logging in with credentials: admin6
+2026-09-17 18:45:25.773 [main] INFO  ui.wrappers.Input - Writing 'admin6' to input: By.xpath: //label[contains(normalize-space(.),'userName')]//following::input[1] | //input[contains(normalize-space(@placeholder),'userName') or @id='userName' or @name='userName']
+2026-09-17 18:45:25.878 [main] INFO  ui.wrappers.Input - Writing 'WrongPassword!' to input: By.xpath: //label[contains(normalize-space(.),'password')]//following::input[1] | //input[contains(normalize-space(@placeholder),'password') or @id='password' or @name='password']
+2026-09-17 18:45:25.950 [main] INFO  ui.wrappers.Buttons - Clicking on button: By.xpath: //button[normalize-space(text())='Login']
+2026-09-17 18:45:25.980 [main] INFO  ui.pages.BasePage - Verifying if login was successful by waiting for 'Log out' text...
+2026-09-17 18:45:31.141 [main] WARN  ui.pages.BasePage - Login failed: 'Log out' button did not appear.
+2026-09-17 18:45:31.155 [main] INFO  core.utils.TestListener - ========== PASSED TEST: testOfLoginWithInvalidCredentials ==========
+2026-09-17 18:45:31.157 [main] INFO  tests.base.BaseTest - Quitting driver after method
+2026-09-17 18:45:31.249 [main] INFO  tests.base.BaseTest - ========== DRIVER CLOSED ==========
+2026-09-17 18:45:31.250 [main] INFO  tests.base.BaseTest - Starting tests on browser: chrome
+2026-09-17 18:45:32.345 [main] INFO  ui.pages.BasePage - Opening Login page
+2026-09-17 18:45:33.216 [main] INFO  core.utils.TestListener - ========== STARTING TEST: testOfLoginWithInvalidCredentials ==========
+2026-09-17 18:45:33.221 [main] INFO  ui.pages.BasePage - Logging in with credentials: admin6
+2026-09-17 18:45:33.222 [main] INFO  ui.wrappers.Input - Writing 'admin6' to input: By.xpath: //label[contains(normalize-space(.),'userName')]//following::input[1] | //input[contains(normalize-space(@placeholder),'userName') or @id='userName' or @name='userName']
+2026-09-17 18:45:33.314 [main] INFO  ui.wrappers.Input - Writing '' to input: By.xpath: //label[contains(normalize-space(.),'password')]//following::input[1] | //input[contains(normalize-space(@placeholder),'password') or @id='password' or @name='password']
+2026-09-17 18:45:33.384 [main] INFO  ui.wrappers.Buttons - Clicking on button: By.xpath: //button[normalize-space(text())='Login']
+2026-09-17 18:45:33.414 [main] INFO  ui.pages.BasePage - Verifying if login was successful by waiting for 'Log out' text...
+2026-09-17 18:45:38.561 [main] WARN  ui.pages.BasePage - Login failed: 'Log out' button did not appear.
+2026-09-17 18:45:38.582 [main] INFO  core.utils.TestListener - ========== PASSED TEST: testOfLoginWithInvalidCredentials ==========
+2026-09-17 18:45:38.583 [main] INFO  tests.base.BaseTest - Quitting driver after method
+2026-09-17 18:45:38.672 [main] INFO  tests.base.BaseTest - ========== DRIVER CLOSED ==========
+2026-09-17 18:45:38.673 [main] INFO  tests.base.BaseTest - Starting tests on browser: chrome
+2026-09-17 18:45:39.778 [main] INFO  ui.pages.BasePage - Opening Login page
+2026-09-17 18:45:40.604 [main] INFO  core.utils.TestListener - ========== STARTING TEST: testOfLoginWithInvalidCredentials ==========
+2026-09-17 18:45:40.611 [main] INFO  ui.pages.BasePage - Logging in with credentials: admin6
+2026-09-17 18:45:40.611 [main] INFO  ui.wrappers.Input - Writing 'admin6' to input: By.xpath: //label[contains(normalize-space(.),'userName')]//following::input[1] | //input[contains(normalize-space(@placeholder),'userName') or @id='userName' or @name='userName']
+2026-09-17 18:45:40.708 [main] INFO  ui.wrappers.Input - Writing '123' to input: By.xpath: //label[contains(normalize-space(.),'password')]//following::input[1] | //input[contains(normalize-space(@placeholder),'password') or @id='password' or @name='password']
+2026-09-17 18:45:40.795 [main] INFO  ui.wrappers.Buttons - Clicking on button: By.xpath: //button[normalize-space(text())='Login']
+2026-09-17 18:45:40.826 [main] INFO  ui.pages.BasePage - Verifying if login was successful by waiting for 'Log out' text...
+2026-09-17 18:45:45.958 [main] WARN  ui.pages.BasePage - Login failed: 'Log out' button did not appear.
+2026-09-17 18:45:45.963 [main] INFO  core.utils.TestListener - ========== PASSED TEST: testOfLoginWithInvalidCredentials ==========
+2026-09-17 18:45:45.966 [main] INFO  tests.base.BaseTest - Quitting driver after method
+2026-09-17 18:45:46.062 [main] INFO  tests.base.BaseTest - ========== DRIVER CLOSED ==========
+2026-09-17 18:45:46.063 [main] INFO  tests.base.BaseTest - Starting tests on browser: chrome
+2026-09-17 18:45:47.139 [main] INFO  ui.pages.BasePage - Opening Login page
+2026-09-17 18:45:47.967 [main] INFO  core.utils.TestListener - ========== STARTING TEST: testOfLoginWithInvalidCredentials ==========
+2026-09-17 18:45:47.971 [main] INFO  ui.pages.BasePage - Logging in with credentials: admin6
+2026-09-17 18:45:47.971 [main] INFO  ui.wrappers.Input - Writing 'admin6' to input: By.xpath: //label[contains(normalize-space(.),'userName')]//following::input[1] | //input[contains(normalize-space(@placeholder),'userName') or @id='userName' or @name='userName']
+2026-09-17 18:45:48.065 [main] INFO  ui.wrappers.Input - Writing 'a@b#c$d%' to input: By.xpath: //label[contains(normalize-space(.),'password')]//following::input[1] | //input[contains(normalize-space(@placeholder),'password') or @id='password' or @name='password']
+2026-09-17 18:45:48.137 [main] INFO  ui.wrappers.Buttons - Clicking on button: By.xpath: //button[normalize-space(text())='Login']
+2026-09-17 18:45:48.167 [main] INFO  ui.pages.BasePage - Verifying if login was successful by waiting for 'Log out' text...
+2026-09-17 18:45:53.310 [main] WARN  ui.pages.BasePage - Login failed: 'Log out' button did not appear.
+2026-09-17 18:45:53.317 [main] INFO  core.utils.TestListener - ========== PASSED TEST: testOfLoginWithInvalidCredentials ==========
+2026-09-17 18:45:53.338 [main] INFO  tests.base.BaseTest - Quitting driver after method
+2026-09-17 18:45:53.431 [main] INFO  tests.base.BaseTest - ========== DRIVER CLOSED ==========
+2026-09-17 18:45:53.432 [main] INFO  tests.base.BaseTest - Starting tests on browser: chrome
+2026-09-17 18:45:54.532 [main] INFO  ui.pages.BasePage - Opening Login page
+2026-09-17 18:45:55.512 [main] INFO  core.utils.TestListener - ========== STARTING TEST: testOfLoginWithInvalidCredentials ==========
+2026-09-17 18:45:55.515 [main] INFO  ui.pages.BasePage - Logging in with credentials: admin6
+2026-09-17 18:45:55.515 [main] INFO  ui.wrappers.Input - Writing 'admin6' to input: By.xpath: //label[contains(normalize-space(.),'userName')]//following::input[1] | //input[contains(normalize-space(@placeholder),'userName') or @id='userName' or @name='userName']
+2026-09-17 18:45:55.621 [main] INFO  ui.wrappers.Input - Writing 'Password123!extra' to input: By.xpath: //label[contains(normalize-space(.),'password')]//following::input[1] | //input[contains(normalize-space(@placeholder),'password') or @id='password' or @name='password']
+2026-09-17 18:45:55.710 [main] INFO  ui.wrappers.Buttons - Clicking on button: By.xpath: //button[normalize-space(text())='Login']
+2026-09-17 18:45:55.741 [main] INFO  ui.pages.BasePage - Verifying if login was successful by waiting for 'Log out' text...
+2026-09-17 18:46:00.908 [main] WARN  ui.pages.BasePage - Login failed: 'Log out' button did not appear.
+2026-09-17 18:46:00.930 [main] INFO  core.utils.TestListener - ========== PASSED TEST: testOfLoginWithInvalidCredentials ==========
+2026-09-17 18:46:00.932 [main] INFO  tests.base.BaseTest - Quitting driver after method
+2026-09-17 18:46:01.025 [main] INFO  tests.base.BaseTest - ========== DRIVER CLOSED ==========
+2026-09-17 18:46:01.027 [main] INFO  tests.base.BaseTest - Starting tests on browser: chrome
+2026-09-17 18:46:02.133 [main] INFO  ui.pages.BasePage - Opening Login page
+2026-09-17 18:46:03.073 [main] INFO  core.utils.TestListener - ========== STARTING TEST: testOfLoginWithValidCredentials ==========
+2026-09-17 18:46:03.082 [main] INFO  ui.pages.BasePage - Logging in with credentials: admin6
+2026-09-17 18:46:03.082 [main] INFO  ui.wrappers.Input - Writing 'admin6' to input: By.xpath: //label[contains(normalize-space(.),'userName')]//following::input[1] | //input[contains(normalize-space(@placeholder),'userName') or @id='userName' or @name='userName']
+2026-09-17 18:46:03.180 [main] INFO  ui.wrappers.Input - Writing 'Password123!' to input: By.xpath: //label[contains(normalize-space(.),'password')]//following::input[1] | //input[contains(normalize-space(@placeholder),'password') or @id='password' or @name='password']
+2026-09-17 18:46:03.253 [main] INFO  ui.wrappers.Buttons - Clicking on button: By.xpath: //button[normalize-space(text())='Login']
+2026-09-17 18:46:03.289 [main] INFO  ui.pages.BasePage - Verifying if login was successful by waiting for 'Log out' text...
+2026-09-17 18:46:05.864 [main] INFO  ui.pages.BasePage - Login verified: 'Log out' button is visible.
+2026-09-17 18:46:05.866 [main] INFO  core.utils.TestListener - ========== PASSED TEST: testOfLoginWithValidCredentials ==========
+2026-09-17 18:46:05.867 [main] INFO  tests.base.BaseTest - Quitting driver after method
+2026-09-17 18:46:05.960 [main] INFO  tests.base.BaseTest - ========== DRIVER CLOSED ==========
+2026-09-17 18:46:06.606 [main] INFO  core.utils.TestListener - ========== STARTING TEST: testGenerateTokenFailure ==========
+2026-09-17 18:46:06.681 [main] INFO  api.services.AccountService - Sending generate token request for user: testUser
+2026-09-17 18:46:06.685 [main] WARN  api.services.AccountService - Token generation returned status: Failed, result: User authorization failed.
+2026-09-17 18:46:06.694 [main] INFO  core.utils.TestListener - ========== PASSED TEST: testGenerateTokenFailure ==========
+2026-09-17 18:46:06.697 [main] INFO  core.utils.TestListener - ========== STARTING TEST: testGenerateTokenSuccess ==========
+2026-09-17 18:46:06.708 [main] INFO  api.services.AccountService - Sending generate token request for user: testUser
+2026-09-17 18:46:06.709 [main] INFO  api.services.AccountService - Token generated successfully
+2026-09-17 18:46:06.713 [main] INFO  core.utils.TestListener - ========== PASSED TEST: testGenerateTokenSuccess ==========
+2026-09-17 18:46:06.717 [main] INFO  core.utils.TestListener - ========== STARTING TEST: testLoginSuccess ==========
+2026-09-17 18:46:06.718 [main] INFO  api.services.AccountService - Sending login request for user: testUser
+2026-09-17 18:46:06.718 [main] INFO  api.services.AccountService - Login successful
+2026-09-17 18:46:06.720 [main] INFO  core.utils.TestListener - ========== PASSED TEST: testLoginSuccess ==========
+2026-09-17 18:46:06.818 [main] INFO  core.utils.TestListener - ========== STARTING TEST: testDeleteAllBooks ==========
+2026-09-17 18:46:06.820 [main] INFO  api.services.BookStoreService - Deleting all books for user '123'
+2026-09-17 18:46:06.820 [main] INFO  api.services.BookStoreService - All books deleted successfully
+2026-09-17 18:46:06.821 [main] INFO  core.utils.TestListener - ========== PASSED TEST: testDeleteAllBooks ==========
+2026-09-17 18:46:06.822 [main] INFO  core.utils.TestListener - ========== STARTING TEST: testGetBookByIsbnNotFound ==========
+2026-09-17 18:46:06.824 [main] INFO  api.services.BookStoreService - Getting book by ISBN: invalid-isbn
+2026-09-17 18:46:06.824 [main] WARN  api.services.BookStoreService - Book with ISBN 'invalid-isbn' not found or request failed
+2026-09-17 18:46:06.825 [main] INFO  core.utils.TestListener - ========== PASSED TEST: testGetBookByIsbnNotFound ==========
+2026-09-17 18:46:06.827 [main] INFO  core.utils.TestListener - ========== STARTING TEST: testGetBooksSuccess ==========
+2026-09-17 18:46:06.828 [main] INFO  api.services.BookStoreService - Getting all books
+2026-09-17 18:46:06.828 [main] INFO  api.services.BookStoreService - Retrieved 0 books
+2026-09-17 18:46:06.829 [main] INFO  core.utils.TestListener - ========== PASSED TEST: testGetBooksSuccess ==========
+2026-09-17 18:46:06.871 [main] INFO  org.apache.kafka.common.config.AbstractConfig - ProducerConfig values: 
+	acks = -1
+	batch.size = 16384
+	bootstrap.servers = [localhost:9092]
+	buffer.memory = 33554432
+	client.dns.lookup = use_all_dns_ips
+	client.id = producer-1
+	compression.gzip.level = -1
+	compression.lz4.level = 9
+	compression.type = none
+	compression.zstd.level = 3
+	config.providers = []
+	connections.max.idle.ms = 540000
+	delivery.timeout.ms = 120000
+	enable.idempotence = true
+	enable.metrics.push = true
+	interceptor.classes = []
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 5
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metadata.max.idle.ms = 300000
+	metadata.recovery.rebootstrap.trigger.ms = 300000
+	metadata.recovery.strategy = rebootstrap
+	metric.reporters = [org.apache.kafka.common.metrics.JmxReporter]
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.adaptive.partitioning.enable = true
+	partitioner.availability.timeout.ms = 0
+	partitioner.class = null
+	partitioner.ignore.keys = false
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.max.ms = 1000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.assertion.algorithm = RS256
+	sasl.oauthbearer.assertion.claim.aud = null
+	sasl.oauthbearer.assertion.claim.exp.seconds = 300
+	sasl.oauthbearer.assertion.claim.iss = null
+	sasl.oauthbearer.assertion.claim.jti.include = false
+	sasl.oauthbearer.assertion.claim.nbf.seconds = 60
+	sasl.oauthbearer.assertion.claim.sub = null
+	sasl.oauthbearer.assertion.file = null
+	sasl.oauthbearer.assertion.private.key.file = null
+	sasl.oauthbearer.assertion.private.key.passphrase = null
+	sasl.oauthbearer.assertion.template.file = null
+	sasl.oauthbearer.client.credentials.client.id = null
+	sasl.oauthbearer.client.credentials.client.secret = null
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = []
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.header.urlencode = false
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.jwt.retriever.class = class org.apache.kafka.common.security.oauthbearer.DefaultJwtRetriever
+	sasl.oauthbearer.jwt.validator.class = class org.apache.kafka.common.security.oauthbearer.DefaultJwtValidator
+	sasl.oauthbearer.scope = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = []
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transaction.two.phase.commit.enable = false
+	transactional.id = null
+	value.serializer = class org.apache.kafka.common.serialization.StringSerializer
+
+2026-09-17 18:46:06.906 [main] INFO  org.apache.kafka.common.telemetry.internals.KafkaMetricsCollector - initializing Kafka metrics collector
+2026-09-17 18:46:06.931 [main] INFO  org.apache.kafka.clients.producer.KafkaProducer - [Producer clientId=producer-1] Instantiated an idempotent producer.
+2026-09-17 18:46:06.969 [main] INFO  org.apache.kafka.common.utils.AppInfoParser - Kafka version: 4.2.0
+2026-09-17 18:46:06.969 [main] INFO  org.apache.kafka.common.utils.AppInfoParser - Kafka commitId: a18251bae0b825c6
+2026-09-17 18:46:06.969 [main] INFO  org.apache.kafka.common.utils.AppInfoParser - Kafka startTimeMs: 1789659966967
+2026-09-17 18:46:06.983 [main] INFO  org.apache.kafka.common.config.AbstractConfig - ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = earliest
+	bootstrap.servers = [localhost:9092]
+	check.crcs = true
+	client.dns.lookup = use_all_dns_ips
+	client.id = consumer-test-group-ba813ed0-664c-4d89-8ba1-c410f4512148-1
+	client.rack = 
+	config.providers = []
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = true
+	enable.metrics.push = true
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = test-group-ba813ed0-664c-4d89-8ba1-c410f4512148
+	group.instance.id = null
+	group.protocol = classic
+	group.remote.assignor = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.throw.on.fetch.stable.offset.unsupported = false
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metadata.recovery.rebootstrap.trigger.ms = 300000
+	metadata.recovery.strategy = rebootstrap
+	metric.reporters = [org.apache.kafka.common.metrics.JmxReporter]
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor, class org.apache.kafka.clients.consumer.CooperativeStickyAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.max.ms = 1000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.assertion.algorithm = RS256
+	sasl.oauthbearer.assertion.claim.aud = null
+	sasl.oauthbearer.assertion.claim.exp.seconds = 300
+	sasl.oauthbearer.assertion.claim.iss = null
+	sasl.oauthbearer.assertion.claim.jti.include = false
+	sasl.oauthbearer.assertion.claim.nbf.seconds = 60
+	sasl.oauthbearer.assertion.claim.sub = null
+	sasl.oauthbearer.assertion.file = null
+	sasl.oauthbearer.assertion.private.key.file = null
+	sasl.oauthbearer.assertion.private.key.passphrase = null
+	sasl.oauthbearer.assertion.template.file = null
+	sasl.oauthbearer.client.credentials.client.id = null
+	sasl.oauthbearer.client.credentials.client.secret = null
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = []
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.header.urlencode = false
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.jwt.retriever.class = class org.apache.kafka.common.security.oauthbearer.DefaultJwtRetriever
+	sasl.oauthbearer.jwt.validator.class = class org.apache.kafka.common.security.oauthbearer.DefaultJwtValidator
+	sasl.oauthbearer.scope = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 45000
+	share.acknowledgement.mode = implicit
+	share.acquire.mode = BATCH_OPTIMIZED
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = []
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+2026-09-17 18:46:06.993 [main] INFO  org.apache.kafka.common.telemetry.internals.KafkaMetricsCollector - initializing Kafka metrics collector
+2026-09-17 18:46:07.069 [main] INFO  org.apache.kafka.common.utils.AppInfoParser - Kafka version: 4.2.0
+2026-09-17 18:46:07.069 [main] INFO  org.apache.kafka.common.utils.AppInfoParser - Kafka commitId: a18251bae0b825c6
+2026-09-17 18:46:07.069 [main] INFO  org.apache.kafka.common.utils.AppInfoParser - Kafka startTimeMs: 1789659967069
+2026-09-17 18:46:07.073 [main] INFO  org.apache.kafka.clients.consumer.internals.ClassicKafkaConsumer - [Consumer clientId=consumer-test-group-ba813ed0-664c-4d89-8ba1-c410f4512148-1, groupId=test-group-ba813ed0-664c-4d89-8ba1-c410f4512148] Subscribed to topic(s): test-execution-results
+2026-09-17 18:46:07.074 [main] INFO  core.utils.TestListener - ========== STARTING TEST: testKafkaMessageFlow ==========
+2026-09-17 18:46:07.076 [main] INFO  core.kafka.KafkaClientProducer - Sending message to topic 'test-execution-results': {"status": "SUCCESS", "test": "LoginTest"}
+2026-09-17 18:46:07.343 [kafka-producer-network-thread | producer-1] INFO  org.apache.kafka.clients.Metadata - [Producer clientId=producer-1] Cluster ID: 5L6g3nShT-eMCtK--X86sw
+2026-09-17 18:46:07.347 [kafka-producer-network-thread | producer-1] INFO  org.apache.kafka.clients.producer.internals.TransactionManager - [Producer clientId=producer-1] ProducerId set to 18 with epoch 0
+2026-09-17 18:46:07.419 [kafka-producer-network-thread | producer-1] INFO  core.kafka.KafkaClientProducer - Message sent successfully to partition 0 with offset 18
+2026-09-17 18:46:07.474 [awaitility-thread] INFO  core.kafka.KafkaClientConsumer - Polling messages from Kafka...
+2026-09-17 18:46:07.480 [awaitility-thread] INFO  org.apache.kafka.clients.Metadata - [Consumer clientId=consumer-test-group-ba813ed0-664c-4d89-8ba1-c410f4512148-1, groupId=test-group-ba813ed0-664c-4d89-8ba1-c410f4512148] Cluster ID: 5L6g3nShT-eMCtK--X86sw
+2026-09-17 18:46:07.486 [awaitility-thread] INFO  org.apache.kafka.clients.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-test-group-ba813ed0-664c-4d89-8ba1-c410f4512148-1, groupId=test-group-ba813ed0-664c-4d89-8ba1-c410f4512148] Discovered group coordinator localhost:9092 (id: 2147483646 rack: null isFenced: false)
+2026-09-17 18:46:07.489 [awaitility-thread] INFO  org.apache.kafka.clients.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-test-group-ba813ed0-664c-4d89-8ba1-c410f4512148-1, groupId=test-group-ba813ed0-664c-4d89-8ba1-c410f4512148] (Re-)joining group
+2026-09-17 18:46:07.515 [awaitility-thread] INFO  org.apache.kafka.clients.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-test-group-ba813ed0-664c-4d89-8ba1-c410f4512148-1, groupId=test-group-ba813ed0-664c-4d89-8ba1-c410f4512148] Request joining group due to: need to re-join with the given member-id: consumer-test-group-ba813ed0-664c-4d89-8ba1-c410f4512148-1-7a2d6194-0e2a-4e18-ae79-8bbab38d9dd1
+2026-09-17 18:46:07.516 [awaitility-thread] INFO  org.apache.kafka.clients.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-test-group-ba813ed0-664c-4d89-8ba1-c410f4512148-1, groupId=test-group-ba813ed0-664c-4d89-8ba1-c410f4512148] (Re-)joining group
+2026-09-17 18:46:07.531 [awaitility-thread] INFO  org.apache.kafka.clients.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-test-group-ba813ed0-664c-4d89-8ba1-c410f4512148-1, groupId=test-group-ba813ed0-664c-4d89-8ba1-c410f4512148] Successfully joined group with generation Generation{generationId=1, memberId='consumer-test-group-ba813ed0-664c-4d89-8ba1-c410f4512148-1-7a2d6194-0e2a-4e18-ae79-8bbab38d9dd1', protocol='range'}
+2026-09-17 18:46:07.537 [awaitility-thread] INFO  org.apache.kafka.clients.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-test-group-ba813ed0-664c-4d89-8ba1-c410f4512148-1, groupId=test-group-ba813ed0-664c-4d89-8ba1-c410f4512148] Finished assignment for group at generation 1: {consumer-test-group-ba813ed0-664c-4d89-8ba1-c410f4512148-1-7a2d6194-0e2a-4e18-ae79-8bbab38d9dd1=Assignment(partitions=[test-execution-results-0])}
+2026-09-17 18:46:07.543 [awaitility-thread] INFO  org.apache.kafka.clients.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-test-group-ba813ed0-664c-4d89-8ba1-c410f4512148-1, groupId=test-group-ba813ed0-664c-4d89-8ba1-c410f4512148] Successfully synced group in generation Generation{generationId=1, memberId='consumer-test-group-ba813ed0-664c-4d89-8ba1-c410f4512148-1-7a2d6194-0e2a-4e18-ae79-8bbab38d9dd1', protocol='range'}
+2026-09-17 18:46:07.543 [awaitility-thread] INFO  org.apache.kafka.clients.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-test-group-ba813ed0-664c-4d89-8ba1-c410f4512148-1, groupId=test-group-ba813ed0-664c-4d89-8ba1-c410f4512148] Notifying assignor about the new Assignment(partitions=[test-execution-results-0])
+2026-09-17 18:46:07.545 [awaitility-thread] INFO  org.apache.kafka.clients.consumer.internals.ConsumerRebalanceListenerInvoker - [Consumer clientId=consumer-test-group-ba813ed0-664c-4d89-8ba1-c410f4512148-1, groupId=test-group-ba813ed0-664c-4d89-8ba1-c410f4512148] Adding newly assigned partitions: [test-execution-results-0]
+2026-09-17 18:46:07.554 [awaitility-thread] INFO  org.apache.kafka.clients.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-test-group-ba813ed0-664c-4d89-8ba1-c410f4512148-1, groupId=test-group-ba813ed0-664c-4d89-8ba1-c410f4512148] Found no committed offset for partition test-execution-results-0
+2026-09-17 18:46:07.568 [awaitility-thread] INFO  org.apache.kafka.clients.consumer.internals.SubscriptionState - [Consumer clientId=consumer-test-group-ba813ed0-664c-4d89-8ba1-c410f4512148-1, groupId=test-group-ba813ed0-664c-4d89-8ba1-c410f4512148] Resetting offset for partition test-execution-results-0 to position FetchPosition{offset=2, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[localhost:9092 (id: 1 rack: null isFenced: false)], epoch=0}}.
+2026-09-17 18:46:07.971 [main] INFO  core.utils.TestListener - ========== PASSED TEST: testKafkaMessageFlow ==========
+2026-09-17 18:46:07.980 [main] INFO  org.apache.kafka.clients.producer.KafkaProducer - [Producer clientId=producer-1] Closing the Kafka producer with timeoutMillis = 9223372036854775807 ms.
+2026-09-17 18:46:07.997 [main] INFO  org.apache.kafka.common.metrics.Metrics - Metrics scheduler closed
+2026-09-17 18:46:08.122 [main] INFO  org.apache.kafka.common.metrics.Metrics - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2026-09-17 18:46:08.122 [main] INFO  org.apache.kafka.common.metrics.Metrics - Closing reporter org.apache.kafka.common.telemetry.internals.ClientTelemetryReporter
+2026-09-17 18:46:08.122 [main] INFO  org.apache.kafka.common.metrics.Metrics - Metrics reporters closed
+2026-09-17 18:46:08.126 [main] INFO  org.apache.kafka.common.utils.AppInfoParser - App info kafka.producer for producer-1 unregistered
+2026-09-17 18:46:08.320 [main] INFO  org.apache.kafka.clients.consumer.internals.ConsumerRebalanceListenerInvoker - [Consumer clientId=consumer-test-group-ba813ed0-664c-4d89-8ba1-c410f4512148-1, groupId=test-group-ba813ed0-664c-4d89-8ba1-c410f4512148] Revoke previously assigned partitions [test-execution-results-0]
+2026-09-17 18:46:08.412 [main] INFO  org.apache.kafka.clients.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-test-group-ba813ed0-664c-4d89-8ba1-c410f4512148-1, groupId=test-group-ba813ed0-664c-4d89-8ba1-c410f4512148] Member consumer-test-group-ba813ed0-664c-4d89-8ba1-c410f4512148-1-7a2d6194-0e2a-4e18-ae79-8bbab38d9dd1 sending LeaveGroup request to coordinator localhost:9092 (id: 2147483646 rack: null isFenced: false) due to the consumer is being closed
+2026-09-17 18:46:08.419 [main] INFO  org.apache.kafka.clients.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-test-group-ba813ed0-664c-4d89-8ba1-c410f4512148-1, groupId=test-group-ba813ed0-664c-4d89-8ba1-c410f4512148] Resetting generation and member id due to: consumer pro-actively leaving the group
+2026-09-17 18:46:08.545 [main] INFO  org.apache.kafka.clients.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-test-group-ba813ed0-664c-4d89-8ba1-c410f4512148-1, groupId=test-group-ba813ed0-664c-4d89-8ba1-c410f4512148] Request joining group due to: consumer pro-actively leaving the group
+2026-09-17 18:46:08.551 [main] INFO  org.apache.kafka.common.metrics.Metrics - Metrics scheduler closed
+2026-09-17 18:46:08.551 [main] INFO  org.apache.kafka.common.metrics.Metrics - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2026-09-17 18:46:08.551 [main] INFO  org.apache.kafka.common.metrics.Metrics - Closing reporter org.apache.kafka.common.telemetry.internals.ClientTelemetryReporter
+2026-09-17 18:46:08.551 [main] INFO  org.apache.kafka.common.metrics.Metrics - Metrics reporters closed
+2026-09-17 18:46:08.553 [main] INFO  org.apache.kafka.common.utils.AppInfoParser - App info kafka.consumer for consumer-test-group-ba813ed0-664c-4d89-8ba1-c410f4512148-1 unregistered
+2026-09-17 18:46:08.555 [main] INFO  tests.base.BaseApiTest - Setting up API credentials...
+2026-09-17 18:46:08.555 [main] INFO  api.services.AccountService - Sending login request for user: admin6
+2026-09-17 18:46:09.753 [main] INFO  api.services.AccountService - Login successful
+2026-09-17 18:46:09.754 [main] INFO  api.services.AccountService - Sending generate token request for user: admin6
+2026-09-17 18:46:10.974 [main] INFO  api.services.AccountService - Token generated successfully
+2026-09-17 18:46:10.975 [main] INFO  tests.base.BaseApiTest - API Setup successful. UserID: a9db5160-3ddc-4c00-b81f-9076c3353d37
+2026-09-17 18:46:10.978 [main] INFO  tests.api.BookStoreTest - Cleaning up user's book collection before test
+2026-09-17 18:46:10.979 [main] INFO  api.services.BookStoreService - Deleting all books for user 'a9db5160-3ddc-4c00-b81f-9076c3353d37'
+2026-09-17 18:46:12.365 [main] INFO  api.services.BookStoreService - All books deleted successfully
+2026-09-17 18:46:12.365 [main] INFO  api.services.BookStoreService - Getting all books
+2026-09-17 18:46:12.736 [main] INFO  api.services.BookStoreService - Retrieved 8 books
+2026-09-17 18:46:12.736 [main] INFO  tests.api.BookStoreTest - First book ISBN: 9781449325862
+2026-09-17 18:46:12.738 [main] INFO  core.utils.TestListener - ========== STARTING TEST: testAddBook ==========
+2026-09-17 18:46:12.746 [main] INFO  tests.api.BookStoreTest - Starting test: Add book to collection. ISBN: 9781449325862
+2026-09-17 18:46:12.747 [main] INFO  api.services.BookStoreService - Adding book with ISBN '9781449325862' to user 'a9db5160-3ddc-4c00-b81f-9076c3353d37'
+2026-09-17 18:46:13.611 [main] INFO  api.services.BookStoreService - Book added successfully
+2026-09-17 18:46:13.612 [main] INFO  tests.api.BookStoreTest - Book added successfully, verifying...
+2026-09-17 18:46:13.612 [main] INFO  api.services.BookStoreService - Getting books for user 'a9db5160-3ddc-4c00-b81f-9076c3353d37'
+2026-09-17 18:46:14.037 [main] INFO  tests.api.BookStoreTest - Book verified in user's collection
+2026-09-17 18:46:14.039 [main] INFO  core.utils.TestListener - ========== PASSED TEST: testAddBook ==========
+2026-09-17 18:46:14.040 [main] INFO  tests.api.BookStoreTest - Cleaning up user's book collection before test
+2026-09-17 18:46:14.041 [main] INFO  api.services.BookStoreService - Deleting all books for user 'a9db5160-3ddc-4c00-b81f-9076c3353d37'
+2026-09-17 18:46:14.663 [main] INFO  api.services.BookStoreService - All books deleted successfully
+2026-09-17 18:46:14.664 [main] INFO  api.services.BookStoreService - Getting all books
+2026-09-17 18:46:15.047 [main] INFO  api.services.BookStoreService - Retrieved 8 books
+2026-09-17 18:46:15.048 [main] INFO  tests.api.BookStoreTest - First book ISBN: 9781449325862
+2026-09-17 18:46:15.050 [main] INFO  core.utils.TestListener - ========== STARTING TEST: testDeleteBooks ==========
+2026-09-17 18:46:15.051 [main] INFO  tests.api.BookStoreTest - Starting test: Delete all books from collection
+2026-09-17 18:46:15.052 [main] INFO  api.services.BookStoreService - Adding book with ISBN '9781449325862' to user 'a9db5160-3ddc-4c00-b81f-9076c3353d37'
+2026-09-17 18:46:15.454 [main] INFO  api.services.BookStoreService - Book added successfully
+2026-09-17 18:46:15.455 [main] INFO  tests.api.BookStoreTest - Added test book before deletion
+2026-09-17 18:46:15.455 [main] INFO  api.services.BookStoreService - Deleting all books for user 'a9db5160-3ddc-4c00-b81f-9076c3353d37'
+2026-09-17 18:46:16.103 [main] INFO  api.services.BookStoreService - All books deleted successfully
+2026-09-17 18:46:16.104 [main] INFO  api.services.BookStoreService - Getting books for user 'a9db5160-3ddc-4c00-b81f-9076c3353d37'
+2026-09-17 18:46:16.528 [main] INFO  tests.api.BookStoreTest - All books deleted successfully
+2026-09-17 18:46:16.530 [main] INFO  core.utils.TestListener - ========== PASSED TEST: testDeleteBooks ==========
+2026-09-17 18:46:16.532 [main] INFO  tests.api.BookStoreTest - Cleaning up user's book collection before test
+2026-09-17 18:46:16.532 [main] INFO  api.services.BookStoreService - Deleting all books for user 'a9db5160-3ddc-4c00-b81f-9076c3353d37'
+2026-09-17 18:46:16.925 [main] INFO  api.services.BookStoreService - All books deleted successfully
+2026-09-17 18:46:16.926 [main] INFO  api.services.BookStoreService - Getting all books
+2026-09-17 18:46:17.250 [main] INFO  api.services.BookStoreService - Retrieved 8 books
+2026-09-17 18:46:17.250 [main] INFO  tests.api.BookStoreTest - First book ISBN: 9781449325862
+2026-09-17 18:46:17.252 [main] INFO  core.utils.TestListener - ========== STARTING TEST: testGetBooks ==========
+2026-09-17 18:46:17.253 [main] INFO  tests.api.BookStoreTest - Starting test: Get all books
+2026-09-17 18:46:17.253 [main] INFO  api.services.BookStoreService - Getting all books
+2026-09-17 18:46:17.603 [main] INFO  api.services.BookStoreService - Retrieved 8 books
+2026-09-17 18:46:17.603 [main] INFO  tests.api.BookStoreTest - Retrieved 8 books
+2026-09-17 18:46:17.605 [main] INFO  core.utils.TestListener - ========== PASSED TEST: testGetBooks ==========
+2026-09-17 18:46:17.606 [main] INFO  tests.base.BaseApiTest - Setting up API credentials...
+2026-09-17 18:46:17.606 [main] INFO  api.services.AccountService - Sending login request for user: admin6
+2026-09-17 18:46:18.535 [main] INFO  api.services.AccountService - Login successful
+2026-09-17 18:46:18.537 [main] INFO  api.services.AccountService - Sending generate token request for user: admin6
+2026-09-17 18:46:20.295 [main] INFO  api.services.AccountService - Token generated successfully
+2026-09-17 18:46:20.296 [main] INFO  tests.base.BaseApiTest - API Setup successful. UserID: a9db5160-3ddc-4c00-b81f-9076c3353d37
+2026-09-17 18:46:20.300 [main] INFO  core.utils.TestListener - ========== STARTING TEST: testGenerateToken ==========
+2026-09-17 18:46:20.308 [main] INFO  tests.api.AuthorizationTest - Starting test: Generate access token
+2026-09-17 18:46:20.308 [main] INFO  tests.api.AuthorizationTest - Requesting token for user: admin6
+2026-09-17 18:46:20.309 [main] INFO  api.services.AccountService - Sending generate token request for user: admin6
+2026-09-17 18:46:21.319 [main] INFO  api.services.AccountService - Token generated successfully
+2026-09-17 18:46:21.321 [main] INFO  tests.api.AuthorizationTest - Token generated successfully. Token: eyJhbG...rM0U
+2026-09-17 18:46:21.324 [main] INFO  core.utils.TestListener - ========== PASSED TEST: testGenerateToken ==========
+2026-09-17 18:46:21.325 [main] INFO  core.utils.TestListener - ========== STARTING TEST: testLogin ==========
+2026-09-17 18:46:21.327 [main] INFO  tests.api.AuthorizationTest - Starting test: User login
+2026-09-17 18:46:21.328 [main] INFO  tests.api.AuthorizationTest - Attempting login for user: admin6
+2026-09-17 18:46:21.328 [main] INFO  api.services.AccountService - Sending login request for user: admin6
+2026-09-17 18:46:21.932 [main] INFO  api.services.AccountService - Login successful
+2026-09-17 18:46:21.933 [main] INFO  tests.api.AuthorizationTest - Login successful for user: admin6
+2026-09-17 18:46:21.934 [main] INFO  core.utils.TestListener - ========== PASSED TEST: testLogin ==========
+2026-09-17 18:46:21.969 [main] INFO  core.utils.TestListener - ========== SUITE FINISHED: Surefire test ==========
+2026-09-17 18:58:26.650 [main] INFO  core.utils.TestListener - ========== SUITE STARTED: Surefire test ==========
+2026-09-17 18:58:26.675 [main] INFO  core.utils.property.PropertyConfig - ✅ config.properties loaded successfully
+2026-09-17 18:58:26.675 [main] INFO  tests.base.BaseTest - Starting tests on browser: chrome
+2026-09-17 18:58:30.686 [main] INFO  tests.base.BaseTest - PRE-CONDITION: Быстрая авторизация через API для UI-тестов под юзером: adminUi
+2026-09-17 18:58:30.697 [main] INFO  api.services.AccountService - Sending generate token request for user: adminUi
+2026-09-17 18:58:33.133 [main] INFO  api.services.AccountService - Token generated successfully
+2026-09-17 18:58:33.930 [main] INFO  tests.base.BaseTest - Куки для юзера 'adminUi' успешно внедрены. Переходим сразу в Book Store...
+2026-09-17 18:58:34.231 [main] INFO  ui.pages.BasePage - Checking if Book Store page is opened
+2026-09-17 18:58:34.231 [main] INFO  ui.pages.BasePage - Waiting for page to load (document.readyState = complete)
+2026-09-17 18:58:34.237 [main] INFO  ui.pages.BasePage - Page loaded successfully
+2026-09-17 18:58:34.789 [main] INFO  core.utils.TestListener - ========== STARTING TEST: testLoginAndNavigateToBookStore ==========
+2026-09-17 18:58:34.820 [main] INFO  core.utils.TestListener - ========== PASSED TEST: testLoginAndNavigateToBookStore ==========
+2026-09-17 18:58:34.821 [main] INFO  tests.base.BaseTest - Quitting driver after method
+2026-09-17 18:58:34.920 [main] INFO  tests.base.BaseTest - ========== DRIVER CLOSED ==========
+2026-09-17 18:58:34.924 [main] INFO  tests.base.BaseTest - Starting tests on browser: chrome
+2026-09-17 18:58:36.061 [main] INFO  tests.base.BaseTest - PRE-CONDITION: Быстрая авторизация через API для UI-тестов под юзером: adminUi
+2026-09-17 18:58:36.062 [main] INFO  api.services.AccountService - Sending generate token request for user: adminUi
+2026-09-17 18:58:37.528 [main] INFO  api.services.AccountService - Token generated successfully
+2026-09-17 18:58:38.303 [main] INFO  tests.base.BaseTest - Куки для юзера 'adminUi' успешно внедрены. Переходим сразу в Book Store...
+2026-09-17 18:58:38.530 [main] INFO  ui.pages.BasePage - Checking if Book Store page is opened
+2026-09-17 18:58:38.530 [main] INFO  ui.pages.BasePage - Waiting for page to load (document.readyState = complete)
+2026-09-17 18:58:38.534 [main] INFO  ui.pages.BasePage - Page loaded successfully
+2026-09-17 18:58:39.053 [main] INFO  core.utils.TestListener - ========== STARTING TEST: testSearchBookInBookStore ==========
+2026-09-17 18:58:39.057 [main] INFO  ui.pages.BasePage - Searching for book: Programming JavaScript Applications
+2026-09-17 18:58:39.062 [main] INFO  ui.wrappers.Input - Writing 'Programming JavaScript Applications' to input: By.id: searchBox
+2026-09-17 18:58:39.243 [main] INFO  ui.pages.BasePage - Checking if book is displayed: Programming JavaScript Applications
+2026-09-17 18:58:39.254 [main] INFO  ui.pages.BasePage - ✅ Книга 'Programming JavaScript Applications' визуально отображается на экране!
+2026-09-17 18:58:39.255 [main] INFO  core.utils.TestListener - ========== PASSED TEST: testSearchBookInBookStore ==========
+2026-09-17 18:58:39.256 [main] INFO  tests.base.BaseTest - Quitting driver after method
+2026-09-17 18:58:39.344 [main] INFO  tests.base.BaseTest - ========== DRIVER CLOSED ==========
+2026-09-17 18:58:39.345 [main] INFO  tests.base.BaseTest - Starting tests on browser: chrome
+2026-09-17 18:58:40.414 [main] INFO  tests.base.BaseTest - PRE-CONDITION: Быстрая авторизация через API для UI-тестов под юзером: adminUi
+2026-09-17 18:58:40.415 [main] INFO  api.services.AccountService - Sending generate token request for user: adminUi
+2026-09-17 18:58:42.278 [main] INFO  api.services.AccountService - Token generated successfully
+2026-09-17 18:58:43.139 [main] INFO  tests.base.BaseTest - Куки для юзера 'adminUi' успешно внедрены. Переходим сразу в Book Store...
+2026-09-17 18:58:43.378 [main] INFO  ui.pages.BasePage - Checking if Book Store page is opened
+2026-09-17 18:58:43.378 [main] INFO  ui.pages.BasePage - Waiting for page to load (document.readyState = complete)
+2026-09-17 18:58:43.382 [main] INFO  ui.pages.BasePage - Page loaded successfully
+2026-09-17 18:58:43.899 [main] INFO  core.utils.TestListener - ========== STARTING TEST: testSearchBookInBookStore ==========
+2026-09-17 18:58:43.913 [main] INFO  ui.pages.BasePage - Searching for book: Speaking JavaScript
+2026-09-17 18:58:43.913 [main] INFO  ui.wrappers.Input - Writing 'Speaking JavaScript' to input: By.id: searchBox
+2026-09-17 18:58:44.038 [main] INFO  ui.pages.BasePage - Checking if book is displayed: Speaking JavaScript
+2026-09-17 18:58:44.050 [main] INFO  ui.pages.BasePage - ✅ Книга 'Speaking JavaScript' визуально отображается на экране!
+2026-09-17 18:58:44.051 [main] INFO  core.utils.TestListener - ========== PASSED TEST: testSearchBookInBookStore ==========
+2026-09-17 18:58:44.051 [main] INFO  tests.base.BaseTest - Quitting driver after method
+2026-09-17 18:58:44.137 [main] INFO  tests.base.BaseTest - ========== DRIVER CLOSED ==========
+2026-09-17 18:58:44.138 [main] INFO  tests.base.BaseTest - Starting tests on browser: chrome
+2026-09-17 18:58:45.198 [main] INFO  tests.base.BaseTest - PRE-CONDITION: Быстрая авторизация через API для UI-тестов под юзером: adminUi
+2026-09-17 18:58:45.198 [main] INFO  api.services.AccountService - Sending generate token request for user: adminUi
+2026-09-17 18:58:46.743 [main] INFO  api.services.AccountService - Token generated successfully
+2026-09-17 18:58:47.606 [main] INFO  tests.base.BaseTest - Куки для юзера 'adminUi' успешно внедрены. Переходим сразу в Book Store...
+2026-09-17 18:58:47.846 [main] INFO  ui.pages.BasePage - Checking if Book Store page is opened
+2026-09-17 18:58:47.846 [main] INFO  ui.pages.BasePage - Waiting for page to load (document.readyState = complete)
+2026-09-17 18:58:47.850 [main] INFO  ui.pages.BasePage - Page loaded successfully
+2026-09-17 18:58:48.368 [main] INFO  core.utils.TestListener - ========== STARTING TEST: testSearchBookInBookStore ==========
+2026-09-17 18:58:48.378 [main] INFO  ui.pages.BasePage - Searching for book: You Don't Know JS
+2026-09-17 18:58:48.378 [main] INFO  ui.wrappers.Input - Writing 'You Don't Know JS' to input: By.id: searchBox
+2026-09-17 18:58:48.501 [main] INFO  ui.pages.BasePage - Checking if book is displayed: You Don't Know JS
+2026-09-17 18:58:48.512 [main] INFO  ui.pages.BasePage - ✅ Книга 'You Don't Know JS' визуально отображается на экране!
+2026-09-17 18:58:48.513 [main] INFO  core.utils.TestListener - ========== PASSED TEST: testSearchBookInBookStore ==========
+2026-09-17 18:58:48.514 [main] INFO  tests.base.BaseTest - Quitting driver after method
+2026-09-17 18:58:48.600 [main] INFO  tests.base.BaseTest - ========== DRIVER CLOSED ==========
+2026-09-17 18:58:48.602 [main] INFO  tests.base.BaseTest - Starting tests on browser: chrome
+2026-09-17 18:58:49.721 [main] INFO  ui.pages.BasePage - Opening Login page
+2026-09-17 18:58:50.673 [main] INFO  core.utils.TestListener - ========== STARTING TEST: loginFromDatabase ==========
+2026-09-17 18:58:50.681 [main] INFO  ui.pages.BasePage - Logging in from database
+2026-09-17 18:58:50.693 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-09-17 18:58:50.823 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3514ea20
+2026-09-17 18:58:50.824 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-09-17 18:58:50.824 [main] INFO  core.database.DatabaseManager - ✅ Database connection pool initialized
+2026-09-17 18:58:50.824 [main] INFO  core.database.DatabaseManager - Fetching credentials for user role: admin
+2026-09-17 18:58:50.839 [main] INFO  core.database.DatabaseManager - Found user: admin6
+2026-09-17 18:58:50.842 [main] INFO  ui.pages.BasePage - Logging in with credentials for user: admin6
+2026-09-17 18:58:50.843 [main] INFO  ui.wrappers.Input - Writing 'admin6' to input: By.xpath: //label[contains(normalize-space(.),'userName')]//following::input[1] | //input[contains(normalize-space(@placeholder),'userName') or @id='userName' or @name='userName']
+2026-09-17 18:58:50.944 [main] INFO  ui.wrappers.Input - Writing 'Password123!' to input: By.xpath: //label[contains(normalize-space(.),'password')]//following::input[1] | //input[contains(normalize-space(@placeholder),'password') or @id='password' or @name='password']
+2026-09-17 18:58:51.034 [main] INFO  ui.wrappers.Buttons - Clicking on button: By.xpath: //button[normalize-space(text())='Login']
+2026-09-17 18:58:51.075 [main] INFO  ui.pages.BasePage - Verifying if login was successful by waiting for 'Log out' text...
+2026-09-17 18:58:53.131 [main] INFO  ui.pages.BasePage - Login verified: 'Log out' button is visible.
+2026-09-17 18:58:53.133 [main] INFO  core.utils.TestListener - ========== PASSED TEST: loginFromDatabase ==========
+2026-09-17 18:58:53.133 [main] INFO  tests.base.BaseTest - Quitting driver after method
+2026-09-17 18:58:53.217 [main] INFO  tests.base.BaseTest - ========== DRIVER CLOSED ==========
+2026-09-17 18:58:53.219 [main] INFO  tests.base.BaseTest - Starting tests on browser: chrome
+2026-09-17 18:58:54.325 [main] INFO  ui.pages.BasePage - Opening Login page
+2026-09-17 18:58:55.339 [main] INFO  core.utils.TestListener - ========== STARTING TEST: testOfLoginWithInvalidCredentials ==========
+2026-09-17 18:58:55.344 [main] INFO  ui.pages.BasePage - Logging in with credentials for user: admin6
+2026-09-17 18:58:55.345 [main] INFO  ui.wrappers.Input - Writing 'admin6' to input: By.xpath: //label[contains(normalize-space(.),'userName')]//following::input[1] | //input[contains(normalize-space(@placeholder),'userName') or @id='userName' or @name='userName']
+2026-09-17 18:58:55.438 [main] INFO  ui.wrappers.Input - Writing 'WrongPassword!' to input: By.xpath: //label[contains(normalize-space(.),'password')]//following::input[1] | //input[contains(normalize-space(@placeholder),'password') or @id='password' or @name='password']
+2026-09-17 18:58:55.512 [main] INFO  ui.wrappers.Buttons - Clicking on button: By.xpath: //button[normalize-space(text())='Login']
+2026-09-17 18:58:55.544 [main] INFO  ui.pages.BasePage - Verifying if login was successful by waiting for 'Log out' text...
+2026-09-17 18:59:00.752 [main] WARN  ui.pages.BasePage - Login failed: 'Log out' button did not appear.
+2026-09-17 18:59:00.757 [main] INFO  core.utils.TestListener - ========== PASSED TEST: testOfLoginWithInvalidCredentials ==========
+2026-09-17 18:59:00.765 [main] INFO  tests.base.BaseTest - Quitting driver after method
+2026-09-17 18:59:00.854 [main] INFO  tests.base.BaseTest - ========== DRIVER CLOSED ==========
+2026-09-17 18:59:00.855 [main] INFO  tests.base.BaseTest - Starting tests on browser: chrome
+2026-09-17 18:59:01.915 [main] INFO  ui.pages.BasePage - Opening Login page
+2026-09-17 18:59:02.828 [main] INFO  core.utils.TestListener - ========== STARTING TEST: testOfLoginWithInvalidCredentials ==========
+2026-09-17 18:59:02.835 [main] INFO  ui.pages.BasePage - Logging in with credentials for user: admin6
+2026-09-17 18:59:02.835 [main] INFO  ui.wrappers.Input - Writing 'admin6' to input: By.xpath: //label[contains(normalize-space(.),'userName')]//following::input[1] | //input[contains(normalize-space(@placeholder),'userName') or @id='userName' or @name='userName']
+2026-09-17 18:59:02.940 [main] INFO  ui.wrappers.Input - Writing '' to input: By.xpath: //label[contains(normalize-space(.),'password')]//following::input[1] | //input[contains(normalize-space(@placeholder),'password') or @id='password' or @name='password']
+2026-09-17 18:59:03.012 [main] INFO  ui.wrappers.Buttons - Clicking on button: By.xpath: //button[normalize-space(text())='Login']
+2026-09-17 18:59:03.061 [main] INFO  ui.pages.BasePage - Verifying if login was successful by waiting for 'Log out' text...
+2026-09-17 18:59:08.248 [main] WARN  ui.pages.BasePage - Login failed: 'Log out' button did not appear.
+2026-09-17 18:59:08.258 [main] INFO  core.utils.TestListener - ========== PASSED TEST: testOfLoginWithInvalidCredentials ==========
+2026-09-17 18:59:08.260 [main] INFO  tests.base.BaseTest - Quitting driver after method
+2026-09-17 18:59:08.344 [main] INFO  tests.base.BaseTest - ========== DRIVER CLOSED ==========
+2026-09-17 18:59:08.345 [main] INFO  tests.base.BaseTest - Starting tests on browser: chrome
+2026-09-17 18:59:09.465 [main] INFO  ui.pages.BasePage - Opening Login page
+2026-09-17 18:59:10.305 [main] INFO  core.utils.TestListener - ========== STARTING TEST: testOfLoginWithInvalidCredentials ==========
+2026-09-17 18:59:10.312 [main] INFO  ui.pages.BasePage - Logging in with credentials for user: admin6
+2026-09-17 18:59:10.312 [main] INFO  ui.wrappers.Input - Writing 'admin6' to input: By.xpath: //label[contains(normalize-space(.),'userName')]//following::input[1] | //input[contains(normalize-space(@placeholder),'userName') or @id='userName' or @name='userName']
+2026-09-17 18:59:10.406 [main] INFO  ui.wrappers.Input - Writing '123' to input: By.xpath: //label[contains(normalize-space(.),'password')]//following::input[1] | //input[contains(normalize-space(@placeholder),'password') or @id='password' or @name='password']
+2026-09-17 18:59:10.479 [main] INFO  ui.wrappers.Buttons - Clicking on button: By.xpath: //button[normalize-space(text())='Login']
+2026-09-17 18:59:10.509 [main] INFO  ui.pages.BasePage - Verifying if login was successful by waiting for 'Log out' text...
+2026-09-17 18:59:15.667 [main] WARN  ui.pages.BasePage - Login failed: 'Log out' button did not appear.
+2026-09-17 18:59:15.670 [main] INFO  core.utils.TestListener - ========== PASSED TEST: testOfLoginWithInvalidCredentials ==========
+2026-09-17 18:59:15.672 [main] INFO  tests.base.BaseTest - Quitting driver after method
+2026-09-17 18:59:15.761 [main] INFO  tests.base.BaseTest - ========== DRIVER CLOSED ==========
+2026-09-17 18:59:15.762 [main] INFO  tests.base.BaseTest - Starting tests on browser: chrome
+2026-09-17 18:59:16.818 [main] INFO  ui.pages.BasePage - Opening Login page
+2026-09-17 18:59:17.642 [main] INFO  core.utils.TestListener - ========== STARTING TEST: testOfLoginWithInvalidCredentials ==========
+2026-09-17 18:59:17.648 [main] INFO  ui.pages.BasePage - Logging in with credentials for user: admin6
+2026-09-17 18:59:17.649 [main] INFO  ui.wrappers.Input - Writing 'admin6' to input: By.xpath: //label[contains(normalize-space(.),'userName')]//following::input[1] | //input[contains(normalize-space(@placeholder),'userName') or @id='userName' or @name='userName']
+2026-09-17 18:59:17.755 [main] INFO  ui.wrappers.Input - Writing 'a@b#c$d%' to input: By.xpath: //label[contains(normalize-space(.),'password')]//following::input[1] | //input[contains(normalize-space(@placeholder),'password') or @id='password' or @name='password']
+2026-09-17 18:59:17.830 [main] INFO  ui.wrappers.Buttons - Clicking on button: By.xpath: //button[normalize-space(text())='Login']
+2026-09-17 18:59:17.863 [main] INFO  ui.pages.BasePage - Verifying if login was successful by waiting for 'Log out' text...
+2026-09-17 18:59:23.003 [main] WARN  ui.pages.BasePage - Login failed: 'Log out' button did not appear.
+2026-09-17 18:59:23.008 [main] INFO  core.utils.TestListener - ========== PASSED TEST: testOfLoginWithInvalidCredentials ==========
+2026-09-17 18:59:23.021 [main] INFO  tests.base.BaseTest - Quitting driver after method
+2026-09-17 18:59:23.114 [main] INFO  tests.base.BaseTest - ========== DRIVER CLOSED ==========
+2026-09-17 18:59:23.115 [main] INFO  tests.base.BaseTest - Starting tests on browser: chrome
+2026-09-17 18:59:24.210 [main] INFO  ui.pages.BasePage - Opening Login page
+2026-09-17 18:59:25.078 [main] INFO  core.utils.TestListener - ========== STARTING TEST: testOfLoginWithInvalidCredentials ==========
+2026-09-17 18:59:25.088 [main] INFO  ui.pages.BasePage - Logging in with credentials for user: admin6
+2026-09-17 18:59:25.088 [main] INFO  ui.wrappers.Input - Writing 'admin6' to input: By.xpath: //label[contains(normalize-space(.),'userName')]//following::input[1] | //input[contains(normalize-space(@placeholder),'userName') or @id='userName' or @name='userName']
+2026-09-17 18:59:25.183 [main] INFO  ui.wrappers.Input - Writing 'Password123!extra' to input: By.xpath: //label[contains(normalize-space(.),'password')]//following::input[1] | //input[contains(normalize-space(@placeholder),'password') or @id='password' or @name='password']
+2026-09-17 18:59:25.274 [main] INFO  ui.wrappers.Buttons - Clicking on button: By.xpath: //button[normalize-space(text())='Login']
+2026-09-17 18:59:25.308 [main] INFO  ui.pages.BasePage - Verifying if login was successful by waiting for 'Log out' text...
+2026-09-17 18:59:30.456 [main] WARN  ui.pages.BasePage - Login failed: 'Log out' button did not appear.
+2026-09-17 18:59:30.466 [main] INFO  core.utils.TestListener - ========== PASSED TEST: testOfLoginWithInvalidCredentials ==========
+2026-09-17 18:59:30.468 [main] INFO  tests.base.BaseTest - Quitting driver after method
+2026-09-17 18:59:30.564 [main] INFO  tests.base.BaseTest - ========== DRIVER CLOSED ==========
+2026-09-17 18:59:30.565 [main] INFO  tests.base.BaseTest - Starting tests on browser: chrome
+2026-09-17 18:59:31.729 [main] INFO  ui.pages.BasePage - Opening Login page
+2026-09-17 18:59:32.590 [main] INFO  core.utils.TestListener - ========== STARTING TEST: testOfLoginWithValidCredentials ==========
+2026-09-17 18:59:32.602 [main] INFO  ui.pages.BasePage - Logging in with credentials for user: admin6
+2026-09-17 18:59:32.602 [main] INFO  ui.wrappers.Input - Writing 'admin6' to input: By.xpath: //label[contains(normalize-space(.),'userName')]//following::input[1] | //input[contains(normalize-space(@placeholder),'userName') or @id='userName' or @name='userName']
+2026-09-17 18:59:32.703 [main] INFO  ui.wrappers.Input - Writing 'Password123!' to input: By.xpath: //label[contains(normalize-space(.),'password')]//following::input[1] | //input[contains(normalize-space(@placeholder),'password') or @id='password' or @name='password']
+2026-09-17 18:59:32.792 [main] INFO  ui.wrappers.Buttons - Clicking on button: By.xpath: //button[normalize-space(text())='Login']
+2026-09-17 18:59:32.821 [main] INFO  ui.pages.BasePage - Verifying if login was successful by waiting for 'Log out' text...
+2026-09-17 18:59:34.891 [main] INFO  ui.pages.BasePage - Login verified: 'Log out' button is visible.
+2026-09-17 18:59:34.893 [main] INFO  core.utils.TestListener - ========== PASSED TEST: testOfLoginWithValidCredentials ==========
+2026-09-17 18:59:34.894 [main] INFO  tests.base.BaseTest - Quitting driver after method
+2026-09-17 18:59:34.991 [main] INFO  tests.base.BaseTest - ========== DRIVER CLOSED ==========
+2026-09-17 18:59:35.596 [main] INFO  core.utils.TestListener - ========== STARTING TEST: testGenerateTokenFailure ==========
+2026-09-17 18:59:35.667 [main] INFO  api.services.AccountService - Sending generate token request for user: testUser
+2026-09-17 18:59:35.669 [main] WARN  api.services.AccountService - Token generation returned status: Failed, result: User authorization failed.
+2026-09-17 18:59:35.675 [main] INFO  core.utils.TestListener - ========== PASSED TEST: testGenerateTokenFailure ==========
+2026-09-17 18:59:35.677 [main] INFO  core.utils.TestListener - ========== STARTING TEST: testGenerateTokenSuccess ==========
+2026-09-17 18:59:35.679 [main] INFO  api.services.AccountService - Sending generate token request for user: testUser
+2026-09-17 18:59:35.680 [main] INFO  api.services.AccountService - Token generated successfully
+2026-09-17 18:59:35.681 [main] INFO  core.utils.TestListener - ========== PASSED TEST: testGenerateTokenSuccess ==========
+2026-09-17 18:59:35.682 [main] INFO  core.utils.TestListener - ========== STARTING TEST: testLoginSuccess ==========
+2026-09-17 18:59:35.683 [main] INFO  api.services.AccountService - Sending login request for user: testUser
+2026-09-17 18:59:35.683 [main] INFO  api.services.AccountService - Login successful
+2026-09-17 18:59:35.685 [main] INFO  core.utils.TestListener - ========== PASSED TEST: testLoginSuccess ==========
+2026-09-17 18:59:35.783 [main] INFO  core.utils.TestListener - ========== STARTING TEST: testDeleteAllBooks ==========
+2026-09-17 18:59:35.784 [main] INFO  api.services.BookStoreService - Deleting all books for user '123'
+2026-09-17 18:59:35.785 [main] INFO  api.services.BookStoreService - All books deleted successfully
+2026-09-17 18:59:35.786 [main] INFO  core.utils.TestListener - ========== PASSED TEST: testDeleteAllBooks ==========
+2026-09-17 18:59:35.787 [main] INFO  core.utils.TestListener - ========== STARTING TEST: testGetBookByIsbnNotFound ==========
+2026-09-17 18:59:35.789 [main] INFO  api.services.BookStoreService - Getting book by ISBN: invalid-isbn
+2026-09-17 18:59:35.790 [main] WARN  api.services.BookStoreService - Book with ISBN 'invalid-isbn' not found or request failed
+2026-09-17 18:59:35.791 [main] INFO  core.utils.TestListener - ========== PASSED TEST: testGetBookByIsbnNotFound ==========
+2026-09-17 18:59:35.792 [main] INFO  core.utils.TestListener - ========== STARTING TEST: testGetBooksSuccess ==========
+2026-09-17 18:59:35.793 [main] INFO  api.services.BookStoreService - Getting all books
+2026-09-17 18:59:35.793 [main] INFO  api.services.BookStoreService - Retrieved 0 books
+2026-09-17 18:59:35.794 [main] INFO  core.utils.TestListener - ========== PASSED TEST: testGetBooksSuccess ==========
+2026-09-17 18:59:35.827 [main] INFO  org.apache.kafka.common.config.AbstractConfig - ProducerConfig values: 
+	acks = -1
+	batch.size = 16384
+	bootstrap.servers = [localhost:9092]
+	buffer.memory = 33554432
+	client.dns.lookup = use_all_dns_ips
+	client.id = producer-1
+	compression.gzip.level = -1
+	compression.lz4.level = 9
+	compression.type = none
+	compression.zstd.level = 3
+	config.providers = []
+	connections.max.idle.ms = 540000
+	delivery.timeout.ms = 120000
+	enable.idempotence = true
+	enable.metrics.push = true
+	interceptor.classes = []
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 5
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metadata.max.idle.ms = 300000
+	metadata.recovery.rebootstrap.trigger.ms = 300000
+	metadata.recovery.strategy = rebootstrap
+	metric.reporters = [org.apache.kafka.common.metrics.JmxReporter]
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.adaptive.partitioning.enable = true
+	partitioner.availability.timeout.ms = 0
+	partitioner.class = null
+	partitioner.ignore.keys = false
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.max.ms = 1000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.assertion.algorithm = RS256
+	sasl.oauthbearer.assertion.claim.aud = null
+	sasl.oauthbearer.assertion.claim.exp.seconds = 300
+	sasl.oauthbearer.assertion.claim.iss = null
+	sasl.oauthbearer.assertion.claim.jti.include = false
+	sasl.oauthbearer.assertion.claim.nbf.seconds = 60
+	sasl.oauthbearer.assertion.claim.sub = null
+	sasl.oauthbearer.assertion.file = null
+	sasl.oauthbearer.assertion.private.key.file = null
+	sasl.oauthbearer.assertion.private.key.passphrase = null
+	sasl.oauthbearer.assertion.template.file = null
+	sasl.oauthbearer.client.credentials.client.id = null
+	sasl.oauthbearer.client.credentials.client.secret = null
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = []
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.header.urlencode = false
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.jwt.retriever.class = class org.apache.kafka.common.security.oauthbearer.DefaultJwtRetriever
+	sasl.oauthbearer.jwt.validator.class = class org.apache.kafka.common.security.oauthbearer.DefaultJwtValidator
+	sasl.oauthbearer.scope = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = []
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transaction.two.phase.commit.enable = false
+	transactional.id = null
+	value.serializer = class org.apache.kafka.common.serialization.StringSerializer
+
+2026-09-17 18:59:35.861 [main] INFO  org.apache.kafka.common.telemetry.internals.KafkaMetricsCollector - initializing Kafka metrics collector
+2026-09-17 18:59:35.876 [main] INFO  org.apache.kafka.clients.producer.KafkaProducer - [Producer clientId=producer-1] Instantiated an idempotent producer.
+2026-09-17 18:59:35.910 [main] INFO  org.apache.kafka.common.utils.AppInfoParser - Kafka version: 4.2.0
+2026-09-17 18:59:35.911 [main] INFO  org.apache.kafka.common.utils.AppInfoParser - Kafka commitId: a18251bae0b825c6
+2026-09-17 18:59:35.911 [main] INFO  org.apache.kafka.common.utils.AppInfoParser - Kafka startTimeMs: 1789660775908
+2026-09-17 18:59:35.926 [main] INFO  org.apache.kafka.common.config.AbstractConfig - ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = earliest
+	bootstrap.servers = [localhost:9092]
+	check.crcs = true
+	client.dns.lookup = use_all_dns_ips
+	client.id = consumer-test-group-1c55855e-8010-45b3-a1fd-d21c2c468b52-1
+	client.rack = 
+	config.providers = []
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = true
+	enable.metrics.push = true
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = test-group-1c55855e-8010-45b3-a1fd-d21c2c468b52
+	group.instance.id = null
+	group.protocol = classic
+	group.remote.assignor = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.throw.on.fetch.stable.offset.unsupported = false
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metadata.recovery.rebootstrap.trigger.ms = 300000
+	metadata.recovery.strategy = rebootstrap
+	metric.reporters = [org.apache.kafka.common.metrics.JmxReporter]
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor, class org.apache.kafka.clients.consumer.CooperativeStickyAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.max.ms = 1000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.assertion.algorithm = RS256
+	sasl.oauthbearer.assertion.claim.aud = null
+	sasl.oauthbearer.assertion.claim.exp.seconds = 300
+	sasl.oauthbearer.assertion.claim.iss = null
+	sasl.oauthbearer.assertion.claim.jti.include = false
+	sasl.oauthbearer.assertion.claim.nbf.seconds = 60
+	sasl.oauthbearer.assertion.claim.sub = null
+	sasl.oauthbearer.assertion.file = null
+	sasl.oauthbearer.assertion.private.key.file = null
+	sasl.oauthbearer.assertion.private.key.passphrase = null
+	sasl.oauthbearer.assertion.template.file = null
+	sasl.oauthbearer.client.credentials.client.id = null
+	sasl.oauthbearer.client.credentials.client.secret = null
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = []
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.header.urlencode = false
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.jwt.retriever.class = class org.apache.kafka.common.security.oauthbearer.DefaultJwtRetriever
+	sasl.oauthbearer.jwt.validator.class = class org.apache.kafka.common.security.oauthbearer.DefaultJwtValidator
+	sasl.oauthbearer.scope = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 45000
+	share.acknowledgement.mode = implicit
+	share.acquire.mode = BATCH_OPTIMIZED
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = []
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+2026-09-17 18:59:35.948 [main] INFO  org.apache.kafka.common.telemetry.internals.KafkaMetricsCollector - initializing Kafka metrics collector
+2026-09-17 18:59:35.993 [main] INFO  org.apache.kafka.common.utils.AppInfoParser - Kafka version: 4.2.0
+2026-09-17 18:59:35.993 [main] INFO  org.apache.kafka.common.utils.AppInfoParser - Kafka commitId: a18251bae0b825c6
+2026-09-17 18:59:35.993 [main] INFO  org.apache.kafka.common.utils.AppInfoParser - Kafka startTimeMs: 1789660775993
+2026-09-17 18:59:35.995 [main] INFO  org.apache.kafka.clients.consumer.internals.ClassicKafkaConsumer - [Consumer clientId=consumer-test-group-1c55855e-8010-45b3-a1fd-d21c2c468b52-1, groupId=test-group-1c55855e-8010-45b3-a1fd-d21c2c468b52] Subscribed to topic(s): test-execution-results
+2026-09-17 18:59:35.995 [main] INFO  core.utils.TestListener - ========== STARTING TEST: testKafkaMessageFlow ==========
+2026-09-17 18:59:35.996 [main] INFO  core.kafka.KafkaClientProducer - Sending message to topic 'test-execution-results': {"status": "SUCCESS", "test": "LoginTest"}
+2026-09-17 18:59:36.302 [kafka-producer-network-thread | producer-1] INFO  org.apache.kafka.clients.Metadata - [Producer clientId=producer-1] Cluster ID: 5L6g3nShT-eMCtK--X86sw
+2026-09-17 18:59:36.302 [kafka-producer-network-thread | producer-1] INFO  org.apache.kafka.clients.producer.internals.TransactionManager - [Producer clientId=producer-1] ProducerId set to 19 with epoch 0
+2026-09-17 18:59:36.380 [kafka-producer-network-thread | producer-1] INFO  core.kafka.KafkaClientProducer - Message sent successfully to partition 0 with offset 19
+2026-09-17 18:59:36.427 [awaitility-thread] INFO  core.kafka.KafkaClientConsumer - Polling messages from Kafka...
+2026-09-17 18:59:36.434 [awaitility-thread] INFO  org.apache.kafka.clients.Metadata - [Consumer clientId=consumer-test-group-1c55855e-8010-45b3-a1fd-d21c2c468b52-1, groupId=test-group-1c55855e-8010-45b3-a1fd-d21c2c468b52] Cluster ID: 5L6g3nShT-eMCtK--X86sw
+2026-09-17 18:59:36.441 [awaitility-thread] INFO  org.apache.kafka.clients.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-test-group-1c55855e-8010-45b3-a1fd-d21c2c468b52-1, groupId=test-group-1c55855e-8010-45b3-a1fd-d21c2c468b52] Discovered group coordinator localhost:9092 (id: 2147483646 rack: null isFenced: false)
+2026-09-17 18:59:36.445 [awaitility-thread] INFO  org.apache.kafka.clients.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-test-group-1c55855e-8010-45b3-a1fd-d21c2c468b52-1, groupId=test-group-1c55855e-8010-45b3-a1fd-d21c2c468b52] (Re-)joining group
+2026-09-17 18:59:36.471 [awaitility-thread] INFO  org.apache.kafka.clients.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-test-group-1c55855e-8010-45b3-a1fd-d21c2c468b52-1, groupId=test-group-1c55855e-8010-45b3-a1fd-d21c2c468b52] Request joining group due to: need to re-join with the given member-id: consumer-test-group-1c55855e-8010-45b3-a1fd-d21c2c468b52-1-abd3a938-e954-4cc7-ae65-2a842a2bb161
+2026-09-17 18:59:36.472 [awaitility-thread] INFO  org.apache.kafka.clients.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-test-group-1c55855e-8010-45b3-a1fd-d21c2c468b52-1, groupId=test-group-1c55855e-8010-45b3-a1fd-d21c2c468b52] (Re-)joining group
+2026-09-17 18:59:36.490 [awaitility-thread] INFO  org.apache.kafka.clients.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-test-group-1c55855e-8010-45b3-a1fd-d21c2c468b52-1, groupId=test-group-1c55855e-8010-45b3-a1fd-d21c2c468b52] Successfully joined group with generation Generation{generationId=1, memberId='consumer-test-group-1c55855e-8010-45b3-a1fd-d21c2c468b52-1-abd3a938-e954-4cc7-ae65-2a842a2bb161', protocol='range'}
+2026-09-17 18:59:36.494 [awaitility-thread] INFO  org.apache.kafka.clients.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-test-group-1c55855e-8010-45b3-a1fd-d21c2c468b52-1, groupId=test-group-1c55855e-8010-45b3-a1fd-d21c2c468b52] Finished assignment for group at generation 1: {consumer-test-group-1c55855e-8010-45b3-a1fd-d21c2c468b52-1-abd3a938-e954-4cc7-ae65-2a842a2bb161=Assignment(partitions=[test-execution-results-0])}
+2026-09-17 18:59:36.499 [awaitility-thread] INFO  org.apache.kafka.clients.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-test-group-1c55855e-8010-45b3-a1fd-d21c2c468b52-1, groupId=test-group-1c55855e-8010-45b3-a1fd-d21c2c468b52] Successfully synced group in generation Generation{generationId=1, memberId='consumer-test-group-1c55855e-8010-45b3-a1fd-d21c2c468b52-1-abd3a938-e954-4cc7-ae65-2a842a2bb161', protocol='range'}
+2026-09-17 18:59:36.499 [awaitility-thread] INFO  org.apache.kafka.clients.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-test-group-1c55855e-8010-45b3-a1fd-d21c2c468b52-1, groupId=test-group-1c55855e-8010-45b3-a1fd-d21c2c468b52] Notifying assignor about the new Assignment(partitions=[test-execution-results-0])
+2026-09-17 18:59:36.500 [awaitility-thread] INFO  org.apache.kafka.clients.consumer.internals.ConsumerRebalanceListenerInvoker - [Consumer clientId=consumer-test-group-1c55855e-8010-45b3-a1fd-d21c2c468b52-1, groupId=test-group-1c55855e-8010-45b3-a1fd-d21c2c468b52] Adding newly assigned partitions: [test-execution-results-0]
+2026-09-17 18:59:36.507 [awaitility-thread] INFO  org.apache.kafka.clients.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-test-group-1c55855e-8010-45b3-a1fd-d21c2c468b52-1, groupId=test-group-1c55855e-8010-45b3-a1fd-d21c2c468b52] Found no committed offset for partition test-execution-results-0
+2026-09-17 18:59:36.523 [awaitility-thread] INFO  org.apache.kafka.clients.consumer.internals.SubscriptionState - [Consumer clientId=consumer-test-group-1c55855e-8010-45b3-a1fd-d21c2c468b52-1, groupId=test-group-1c55855e-8010-45b3-a1fd-d21c2c468b52] Resetting offset for partition test-execution-results-0 to position FetchPosition{offset=2, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[localhost:9092 (id: 1 rack: null isFenced: false)], epoch=0}}.
+2026-09-17 18:59:36.548 [main] INFO  core.utils.TestListener - ========== PASSED TEST: testKafkaMessageFlow ==========
+2026-09-17 18:59:36.549 [main] INFO  org.apache.kafka.clients.producer.KafkaProducer - [Producer clientId=producer-1] Closing the Kafka producer with timeoutMillis = 9223372036854775807 ms.
+2026-09-17 18:59:36.552 [main] INFO  org.apache.kafka.common.metrics.Metrics - Metrics scheduler closed
+2026-09-17 18:59:36.553 [main] INFO  org.apache.kafka.common.metrics.Metrics - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2026-09-17 18:59:36.553 [main] INFO  org.apache.kafka.common.metrics.Metrics - Closing reporter org.apache.kafka.common.telemetry.internals.ClientTelemetryReporter
+2026-09-17 18:59:36.553 [main] INFO  org.apache.kafka.common.metrics.Metrics - Metrics reporters closed
+2026-09-17 18:59:36.553 [main] INFO  org.apache.kafka.common.utils.AppInfoParser - App info kafka.producer for producer-1 unregistered
+2026-09-17 18:59:36.563 [main] INFO  org.apache.kafka.clients.consumer.internals.ConsumerRebalanceListenerInvoker - [Consumer clientId=consumer-test-group-1c55855e-8010-45b3-a1fd-d21c2c468b52-1, groupId=test-group-1c55855e-8010-45b3-a1fd-d21c2c468b52] Revoke previously assigned partitions [test-execution-results-0]
+2026-09-17 18:59:36.563 [main] INFO  org.apache.kafka.clients.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-test-group-1c55855e-8010-45b3-a1fd-d21c2c468b52-1, groupId=test-group-1c55855e-8010-45b3-a1fd-d21c2c468b52] Member consumer-test-group-1c55855e-8010-45b3-a1fd-d21c2c468b52-1-abd3a938-e954-4cc7-ae65-2a842a2bb161 sending LeaveGroup request to coordinator localhost:9092 (id: 2147483646 rack: null isFenced: false) due to the consumer is being closed
+2026-09-17 18:59:36.564 [main] INFO  org.apache.kafka.clients.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-test-group-1c55855e-8010-45b3-a1fd-d21c2c468b52-1, groupId=test-group-1c55855e-8010-45b3-a1fd-d21c2c468b52] Resetting generation and member id due to: consumer pro-actively leaving the group
+2026-09-17 18:59:36.564 [main] INFO  org.apache.kafka.clients.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-test-group-1c55855e-8010-45b3-a1fd-d21c2c468b52-1, groupId=test-group-1c55855e-8010-45b3-a1fd-d21c2c468b52] Request joining group due to: consumer pro-actively leaving the group
+2026-09-17 18:59:36.569 [main] INFO  org.apache.kafka.common.metrics.Metrics - Metrics scheduler closed
+2026-09-17 18:59:36.569 [main] INFO  org.apache.kafka.common.metrics.Metrics - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2026-09-17 18:59:36.569 [main] INFO  org.apache.kafka.common.metrics.Metrics - Closing reporter org.apache.kafka.common.telemetry.internals.ClientTelemetryReporter
+2026-09-17 18:59:36.569 [main] INFO  org.apache.kafka.common.metrics.Metrics - Metrics reporters closed
+2026-09-17 18:59:36.571 [main] INFO  org.apache.kafka.common.utils.AppInfoParser - App info kafka.consumer for consumer-test-group-1c55855e-8010-45b3-a1fd-d21c2c468b52-1 unregistered
+2026-09-17 18:59:36.572 [main] INFO  tests.base.BaseApiTest - Setting up API credentials...
+2026-09-17 18:59:36.572 [main] INFO  api.services.AccountService - Sending login request for user: admin6
+2026-09-17 18:59:37.606 [main] INFO  api.services.AccountService - Login successful
+2026-09-17 18:59:37.606 [main] INFO  api.services.AccountService - Sending generate token request for user: admin6
+2026-09-17 18:59:39.046 [main] INFO  api.services.AccountService - Token generated successfully
+2026-09-17 18:59:39.047 [main] INFO  tests.base.BaseApiTest - API Setup successful. UserID: a9db5160-3ddc-4c00-b81f-9076c3353d37
+2026-09-17 18:59:39.050 [main] INFO  tests.api.BookStoreTest - Cleaning up user's book collection before test
+2026-09-17 18:59:39.051 [main] INFO  api.services.BookStoreService - Deleting all books for user 'a9db5160-3ddc-4c00-b81f-9076c3353d37'
+2026-09-17 18:59:40.600 [main] INFO  api.services.BookStoreService - All books deleted successfully
+2026-09-17 18:59:40.601 [main] INFO  api.services.BookStoreService - Getting all books
+2026-09-17 18:59:40.980 [main] INFO  api.services.BookStoreService - Retrieved 8 books
+2026-09-17 18:59:40.980 [main] INFO  tests.api.BookStoreTest - First book ISBN: 9781449325862
+2026-09-17 18:59:40.982 [main] INFO  core.utils.TestListener - ========== STARTING TEST: testAddBook ==========
+2026-09-17 18:59:40.986 [main] INFO  tests.api.BookStoreTest - Starting test: Add book to collection. ISBN: 9781449325862
+2026-09-17 18:59:40.986 [main] INFO  api.services.BookStoreService - Adding book with ISBN '9781449325862' to user 'a9db5160-3ddc-4c00-b81f-9076c3353d37'
+2026-09-17 18:59:41.413 [main] INFO  api.services.BookStoreService - Book added successfully
+2026-09-17 18:59:41.413 [main] INFO  tests.api.BookStoreTest - Book added successfully, verifying...
+2026-09-17 18:59:41.414 [main] INFO  api.services.BookStoreService - Getting books for user 'a9db5160-3ddc-4c00-b81f-9076c3353d37'
+2026-09-17 18:59:41.851 [main] INFO  tests.api.BookStoreTest - Book verified in user's collection
+2026-09-17 18:59:41.852 [main] INFO  core.utils.TestListener - ========== PASSED TEST: testAddBook ==========
+2026-09-17 18:59:41.854 [main] INFO  tests.api.BookStoreTest - Cleaning up user's book collection before test
+2026-09-17 18:59:41.854 [main] INFO  api.services.BookStoreService - Deleting all books for user 'a9db5160-3ddc-4c00-b81f-9076c3353d37'
+2026-09-17 18:59:42.529 [main] INFO  api.services.BookStoreService - All books deleted successfully
+2026-09-17 18:59:42.530 [main] INFO  api.services.BookStoreService - Getting all books
+2026-09-17 18:59:42.869 [main] INFO  api.services.BookStoreService - Retrieved 8 books
+2026-09-17 18:59:42.869 [main] INFO  tests.api.BookStoreTest - First book ISBN: 9781449325862
+2026-09-17 18:59:42.870 [main] INFO  core.utils.TestListener - ========== STARTING TEST: testDeleteBooks ==========
+2026-09-17 18:59:42.871 [main] INFO  tests.api.BookStoreTest - Starting test: Delete all books from collection
+2026-09-17 18:59:42.871 [main] INFO  api.services.BookStoreService - Adding book with ISBN '9781449325862' to user 'a9db5160-3ddc-4c00-b81f-9076c3353d37'
+2026-09-17 18:59:43.319 [main] INFO  api.services.BookStoreService - Book added successfully
+2026-09-17 18:59:43.320 [main] INFO  tests.api.BookStoreTest - Added test book before deletion
+2026-09-17 18:59:43.320 [main] INFO  api.services.BookStoreService - Deleting all books for user 'a9db5160-3ddc-4c00-b81f-9076c3353d37'
+2026-09-17 18:59:44.065 [main] INFO  api.services.BookStoreService - All books deleted successfully
+2026-09-17 18:59:44.066 [main] INFO  api.services.BookStoreService - Getting books for user 'a9db5160-3ddc-4c00-b81f-9076c3353d37'
+2026-09-17 18:59:44.528 [main] INFO  tests.api.BookStoreTest - All books deleted successfully
+2026-09-17 18:59:44.530 [main] INFO  core.utils.TestListener - ========== PASSED TEST: testDeleteBooks ==========
+2026-09-17 18:59:44.532 [main] INFO  tests.api.BookStoreTest - Cleaning up user's book collection before test
+2026-09-17 18:59:44.532 [main] INFO  api.services.BookStoreService - Deleting all books for user 'a9db5160-3ddc-4c00-b81f-9076c3353d37'
+2026-09-17 18:59:44.944 [main] INFO  api.services.BookStoreService - All books deleted successfully
+2026-09-17 18:59:44.944 [main] INFO  api.services.BookStoreService - Getting all books
+2026-09-17 18:59:45.290 [main] INFO  api.services.BookStoreService - Retrieved 8 books
+2026-09-17 18:59:45.291 [main] INFO  tests.api.BookStoreTest - First book ISBN: 9781449325862
+2026-09-17 18:59:45.292 [main] INFO  core.utils.TestListener - ========== STARTING TEST: testGetBooks ==========
+2026-09-17 18:59:45.294 [main] INFO  tests.api.BookStoreTest - Starting test: Get all books
+2026-09-17 18:59:45.294 [main] INFO  api.services.BookStoreService - Getting all books
+2026-09-17 18:59:45.651 [main] INFO  api.services.BookStoreService - Retrieved 8 books
+2026-09-17 18:59:45.651 [main] INFO  tests.api.BookStoreTest - Retrieved 8 books
+2026-09-17 18:59:45.652 [main] INFO  core.utils.TestListener - ========== PASSED TEST: testGetBooks ==========
+2026-09-17 18:59:45.653 [main] INFO  tests.base.BaseApiTest - Setting up API credentials...
+2026-09-17 18:59:45.653 [main] INFO  api.services.AccountService - Sending login request for user: admin6
+2026-09-17 18:59:46.680 [main] INFO  api.services.AccountService - Login successful
+2026-09-17 18:59:46.681 [main] INFO  api.services.AccountService - Sending generate token request for user: admin6
+2026-09-17 18:59:48.077 [main] INFO  api.services.AccountService - Token generated successfully
+2026-09-17 18:59:48.078 [main] INFO  tests.base.BaseApiTest - API Setup successful. UserID: a9db5160-3ddc-4c00-b81f-9076c3353d37
+2026-09-17 18:59:48.080 [main] INFO  core.utils.TestListener - ========== STARTING TEST: testGenerateToken ==========
+2026-09-17 18:59:48.087 [main] INFO  tests.api.AuthorizationTest - Starting test: Generate access token
+2026-09-17 18:59:48.087 [main] INFO  tests.api.AuthorizationTest - Requesting token for user: admin6
+2026-09-17 18:59:48.088 [main] INFO  api.services.AccountService - Sending generate token request for user: admin6
+2026-09-17 18:59:49.401 [main] INFO  api.services.AccountService - Token generated successfully
+2026-09-17 18:59:49.401 [main] INFO  tests.api.AuthorizationTest - Token generated successfully. Token: eyJhbG...acs4
+2026-09-17 18:59:49.403 [main] INFO  core.utils.TestListener - ========== PASSED TEST: testGenerateToken ==========
+2026-09-17 18:59:49.404 [main] INFO  core.utils.TestListener - ========== STARTING TEST: testLogin ==========
+2026-09-17 18:59:49.406 [main] INFO  tests.api.AuthorizationTest - Starting test: User login
+2026-09-17 18:59:49.406 [main] INFO  tests.api.AuthorizationTest - Attempting login for user: admin6
+2026-09-17 18:59:49.406 [main] INFO  api.services.AccountService - Sending login request for user: admin6
+2026-09-17 18:59:50.309 [main] INFO  api.services.AccountService - Login successful
+2026-09-17 18:59:50.310 [main] INFO  tests.api.AuthorizationTest - Login successful for user: admin6
+2026-09-17 18:59:50.314 [main] INFO  core.utils.TestListener - ========== PASSED TEST: testLogin ==========
+2026-09-17 18:59:50.346 [main] INFO  core.utils.TestListener - ========== SUITE FINISHED: Surefire test ==========

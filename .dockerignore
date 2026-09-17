@@ -1,0 +1,15 @@
+target/
+.gradle/
+build/
+.idea/
+*.class
+*.iml
+.settings/
+.classpath
+.project
+allure-results/
+allure-report/
+*.log
+Dockerfile
+docker-compose.yml
+.dockerignore
