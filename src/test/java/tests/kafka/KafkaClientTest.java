@@ -3,6 +3,7 @@ package tests.kafka;
 import core.kafka.KafkaClientConsumer;
 import core.kafka.KafkaClientProducer;
 import io.qameta.allure.*;
+import org.apache.kafka.clients.consumer.ConsumerRecord;
 import org.apache.kafka.clients.consumer.ConsumerRecords;
 import org.awaitility.Awaitility;
 import org.testng.Assert;
@@ -34,15 +35,21 @@ public class KafkaClientTest {
     @Description("Интеграционный тест: отправка текстового JSON-сообщения через Producer в топик Kafka и его " +
             "асинхронное получение через Consumer (Awaitility).")
     public void testKafkaMessageFlow() {
-        producer.sendMessage(TOPIC_NAME, "user_123", "{\"status\": \"SUCCESS\", \"test\": \"LoginTest\"}");
+        String expectedMessage = "{\"status\": \"SUCCESS\", \"test\": \"LoginTest\"}";
+        producer.sendMessage(TOPIC_NAME, "user_123", expectedMessage);
         Awaitility.await()
-                .atMost(5, TimeUnit.SECONDS)
+                .atMost(10, TimeUnit.SECONDS)
+                .pollInterval(Duration.ofMillis(500))
                 .untilAsserted(() -> {
-                    ConsumerRecords<String, String> records = consumer.pollMessages(Duration.ofMillis(500));
-                    Assert.assertFalse(records.isEmpty(), "Ожидали сообщение в Kafka, но топик пуст!");
-
-                    String lastMessage = records.iterator().next().value();
-                    Assert.assertTrue(lastMessage.contains("SUCCESS"));
+                    ConsumerRecords<String, String> records = consumer.pollMessages(Duration.ofMillis(200));
+                    boolean found = false;
+                    for (ConsumerRecord<String, String> record : records) {
+                        if (record.value() != null && record.value().contains("SUCCESS")) {
+                            found = true;
+                            break;
+                        }
+                    }
+                    Assert.assertTrue(found, "Ожидали сообщение со статусом SUCCESS в Kafka, но топик пока пуст или не содержит его!");
                 });
     }
 

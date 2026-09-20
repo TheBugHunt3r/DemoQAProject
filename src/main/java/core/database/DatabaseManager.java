@@ -18,7 +18,6 @@ public class DatabaseManager {
 
     private static final Logger logger = LoggerFactory.getLogger(DatabaseManager.class);
 
-    // Пул соединений HikariCP
     private static final HikariDataSource dataSource;
 
     static {
