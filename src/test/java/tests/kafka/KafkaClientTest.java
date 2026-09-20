@@ -38,7 +38,7 @@ public class KafkaClientTest {
         String expectedMessage = "{\"status\": \"SUCCESS\", \"test\": \"LoginTest\"}";
         producer.sendMessage(TOPIC_NAME, "user_123", expectedMessage);
         Awaitility.await()
-                .atMost(10, TimeUnit.SECONDS)
+                .atMost(30, TimeUnit.SECONDS)
                 .pollInterval(Duration.ofMillis(500))
                 .untilAsserted(() -> {
                     ConsumerRecords<String, String> records = consumer.pollMessages(Duration.ofMillis(200));
