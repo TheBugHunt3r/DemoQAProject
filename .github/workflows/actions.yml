@@ -19,7 +19,7 @@ jobs:
       postgres:
         image: postgres:15
         env:
-          POSTGRES_DB: test_db
+          POSTGRES_DB: testdata
           POSTGRES_USER: postgres
           POSTGRES_PASSWORD: postgres
         ports:
@@ -35,8 +35,6 @@ jobs:
         env:
           ZOOKEEPER_CLIENT_PORT: 2181
           ZOOKEEPER_TICK_TIME: 2000
-        ports:
-          - 2181:2181
 
       kafka:
         image: confluentinc/cp-kafka:7.3.0
