@@ -24,8 +24,6 @@ jobs:
           POSTGRES_PASSWORD: postgres
         ports:
           - 5432:5432
-        volumes:
-          - ./src/test/resources/init.sql:/docker-entrypoint-initdb.d/init.sql
         options: >-
           --health-cmd pg_isready
           --health-interval 10s
@@ -64,6 +62,10 @@ jobs:
           java-version: '17'
           distribution: 'temurin'
           cache: 'maven'
+
+      - name: Init database
+        run: |
+          docker exec -i $(docker ps -q -f ancestor=postgres:15) psql -U postgres -d testdata < src/test/resources/init.sql
 
       - name: Run tests
         run: mvn clean test
