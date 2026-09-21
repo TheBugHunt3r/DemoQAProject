@@ -68,7 +68,9 @@ jobs:
           docker exec -i $(docker ps -q -f ancestor=postgres:15) psql -U postgres -d testdata < src/test/resources/init.sql
 
       - name: Run tests
-        run: mvn clean test
+        env:
+          KAFKA_BOOTSTRAP_SERVERS: localhost:9092
+        run: mvn clean test -Dsurefire.useFile=false
 
     #  - name: Get Allure history
     #    uses: actions/checkout@v5

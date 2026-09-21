@@ -8,7 +8,7 @@ CREATE TABLE IF NOT EXISTS users (
 DELETE FROM users;
 
 INSERT INTO users (username, password, role)
-VALUES ('adminUi', 'enc_UGFzc3dvcmQxMjMh', 'adminUi');
+VALUES ('adminUi', 'Password123!', 'adminUi');
 
 INSERT INTO users (username, password, role)
-VALUES ('admin6', 'enc_UGFzc3dvcmQxMjMh', 'admin6');
+VALUES ('admin6', 'Password123!', 'admin6');
