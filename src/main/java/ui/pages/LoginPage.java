@@ -41,7 +41,7 @@ public class LoginPage extends BasePage {
     @Step("Авторизация под пользователем, полученным из базы данных")
     public LoginPage loginFromDatabase() {
         logger.info("Logging in from database");
-        Map<String, String> creds = DatabaseManager.getUserCredentials("admin6");
+        Map<String, String> creds = DatabaseManager.getUserCredentials("adminUi");
         if (creds == null || creds.get("username") == null || creds.get("password") == null) {
             throw new IllegalStateException("Failed to load user credentials from database for user 'admin'! Check init.sql execution.");
         }

@@ -33,6 +33,7 @@ public class KafkaClientProducer {
                 logger.info("Message sent successfully to partition {} with offset {}", metadata.partition(), metadata.offset());
             }
         });
+        producer.flush();
     }
 
     public void close() {

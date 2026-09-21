@@ -33,6 +33,11 @@ public class KafkaClientConsumer {
         return consumer.poll(timeout);
     }
 
+    public boolean hasAssignedPartitions() {
+        consumer.poll(Duration.ofMillis(100));
+        return !consumer.assignment().isEmpty();
+    }
+
     public void close() {
         consumer.close();
     }
