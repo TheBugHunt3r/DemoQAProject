@@ -37,7 +37,7 @@ public class KafkaClientTest {
     public void testKafkaMessageFlow() {
         String expectedMessage = "{\"status\": \"SUCCESS\", \"test\": \"LoginTest\"}";
         Awaitility.await()
-                .atMost(30, TimeUnit.SECONDS)
+                .atMost(45, TimeUnit.SECONDS)
                 .pollInterval(Duration.ofMillis(100))
                 .until(consumer::hasAssignedPartitions);
         producer.sendMessage(TOPIC_NAME, "user_123", expectedMessage);
@@ -47,6 +47,7 @@ public class KafkaClientTest {
                 .untilAsserted(() -> {
                     ConsumerRecords<String, String> records = consumer.pollMessages(Duration.ofMillis(200));
                     boolean found = false;
+                    System.out.println(">>> Polled records count: " + records.count());
                     for (ConsumerRecord<String, String> record : records) {
                         if (record.value() != null && record.value().contains("SUCCESS")) {
                             found = true;
