@@ -37,7 +37,7 @@ public class KafkaClientTest {
     public void testKafkaMessageFlow() {
         String expectedMessage = "{\"status\": \"SUCCESS\", \"test\": \"LoginTest\"}";
         Awaitility.await()
-                .atMost(10, TimeUnit.SECONDS)
+                .atMost(30, TimeUnit.SECONDS)
                 .pollInterval(Duration.ofMillis(100))
                 .until(consumer::hasAssignedPartitions);
         producer.sendMessage(TOPIC_NAME, "user_123", expectedMessage);

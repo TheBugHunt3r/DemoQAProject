@@ -42,6 +42,13 @@ public class LoginPage extends BasePage {
     public LoginPage loginFromDatabase() {
         logger.info("Logging in from database");
         Map<String, String> creds = DatabaseManager.getUserCredentials("adminUi");
+        if (creds != null) {
+            logger.info("Fetched from DB -> username: '{}', password length: {}",
+                    creds.get("username"),
+                    creds.get("password") != null ? creds.get("password").length() : 0);
+        } else {
+            logger.error("Fetched credentials map is NULL!");
+        }
         if (creds == null || creds.get("username") == null || creds.get("password") == null) {
             throw new IllegalStateException("Failed to load user credentials from database for user 'admin'! Check init.sql execution.");
         }
